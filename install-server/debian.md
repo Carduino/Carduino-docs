@@ -14,7 +14,9 @@
         * `en_US.UTF-8 UTF-8`
 3. Mettre le système à jour.
 
-    ```$ apt-get update```
+    ```bash
+    $ apt-get update
+    ```
 4. Activer la connexion SSH si elle n'est pas déjà activée
 
 
