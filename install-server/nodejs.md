@@ -1,6 +1,6 @@
 #NodeJS
 
-#Installation de NodeJS
+##Installation de NodeJS
 Installation de Curl et ajout des sources de NodeJS v5.x :
 ```bash
 $ sudo apt-get install curl
