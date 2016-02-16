@@ -5,8 +5,7 @@
     "plugins": [
         "collapsible-menu",
         "heading-anchors",
-        "edit-link",
-        "search-pro"
+        "edit-link"
     ],
     "pluginsConfig": {
         "edit-link": {
