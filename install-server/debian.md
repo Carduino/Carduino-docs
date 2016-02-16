@@ -28,7 +28,7 @@
     ```
     entrer dans le mode insertion <kbd>i</kbd> et ajouter la ligne : `LC_ALL=en_US.UTF-8`
     
-    Quitter le mode insertion <kbd>esc</kbd>, puis enregistrer le fichier <kbd>shift</kbd>+<kbd>z</kbd><kbd>z</kbd>
+    Quitter le mode insertion `esc`, puis enregistrer le fichier `shift`+`z``z`
     
     Redémarrer le serveur pour prendre les changements en compte :
     ```bash
