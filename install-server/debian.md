@@ -7,7 +7,7 @@
     <br />
     <br />
 
-2. Lancer l'image iso et suivre le processus d'installation.
+2. Lancer l'image .iso et suivre le processus d'installation.
     * Attention! Penser à bien noter le mot de passe root.
     <br />
     <br />
