@@ -4,7 +4,7 @@
     },
     "plugins": [
         "collapsible-menu",
-        "heading-anchors",
+        "heading-anchors"
     ],
     "pluginsConfig": {
 
