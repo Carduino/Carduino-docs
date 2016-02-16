@@ -12,7 +12,7 @@
     * [MongoDB](install-server/mongodb.md)
     * [NodeJS](install-server/nodejs.md)
     * [Carduino-server](install-server/carduino-server.md)
-* [Installation des hubs Carduino]()
+* [Installation des hubs Carduino](install-hub/readme.md)
     * [Raspbian]()
     * [Git]()
     * [NodeJS]()
