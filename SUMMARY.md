@@ -5,7 +5,7 @@
 * [Architecture du système Carduino](architecture/readme.md)
     * [Architecture globale](architecture/global.md)
     * [Architecture du serveur](architecture/server.md)
-    * [Architecture des hubs](architecture/hubs.md)
+    * [Architecture des hubs](architecture/hub.md)
 * [Installation du serveur](install-server/readme.md)
     * [Debian](install-server/debian.md)
     * [Git](install-server/git.md)
