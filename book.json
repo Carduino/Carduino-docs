@@ -5,13 +5,6 @@
     "plugins": [
         "collapsible-menu",
         "heading-anchors",
-        "js-sequence-diagram",
-        "customtheme",
-        "emphasize",
-        "image-captions",
-        "js-sequence-hand-diagram",
-        "richquotes",
-        "todo"
     ],
     "pluginsConfig": {
 
