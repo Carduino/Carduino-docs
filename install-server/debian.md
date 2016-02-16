@@ -33,7 +33,6 @@
     $ sudo reboot
     ```
     <br />
-    <br />
 
 4. Mettre le système à jour.
 
