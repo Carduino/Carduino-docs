@@ -5,7 +5,8 @@
     "plugins": [
         "collapsible-menu",
         "heading-anchors",
-        "edit-link"
+        "edit-link",
+        "js-sequence-diagram"
     ],
     "pluginsConfig": {
         "edit-link": {
