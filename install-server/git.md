@@ -5,8 +5,8 @@
 Assurez vous que la liste des packages du système est bien à jour, puis installez Git.
 
 ```bash
-	sudo apt-get update
-	sudo apt-get install git-core
+$ sudo apt-get update
+$ sudo apt-get install git-core
 ```
 
 ##Configuration minimale de Git
@@ -23,10 +23,10 @@ Ces informations se retrouveront dans chaque commit que vous ferez avec Git, qui
 
 Définir le username de Git
 ```bash
-	git config --global user.name "Votre nom"
+$ git config --global user.name "Votre nom"
 ```
 
 Définir l'email de Git
 ```bash
-	git config --global user.email sammy@example.com
+$ git config --global user.email sammy@example.com
 ```
