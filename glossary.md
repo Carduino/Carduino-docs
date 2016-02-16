@@ -26,7 +26,7 @@ Concernant les concentrateurs, Il est possible d'utiliser différentes distribut
 
 > Déconnexion : **`Ctrl + d`**
 
-<img class="logo" src='images/ssh-logo.png' alt='Logo Iterm' />
+<img src='images/ssh-logo.png' alt='Logo Iterm' />
 L'installation/configuration/lancement de tout le système se fait quasi-systématiquement via SSH.
 
 Il faut donc disposer d'un terminal permettant d'établir une connexion SSH sur la machine utilisée pour installer/configurer/lancer le système Cardiuno. C'est le cas de tous les Linux et de Mac-OSX. Pour windows, il faudra passer par un logiciel comme `PuTTY`, ou d'une machine virtuelle Linux pour disposer d'un terminal performant.
