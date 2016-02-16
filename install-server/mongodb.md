@@ -2,7 +2,7 @@
 
 ##Installation de MongoDB
 
->Installation en utilisant le dépot apt MongoDB. Cette méthode permet au système de recevoir la dernière version de MongoDB considérée stable par la team MongoDB.
+>Nous utiliserons le dépot apt MongoDB. Cette méthode permet au système de recevoir la dernière version de MongoDB considérée stable par la team MongoDB.
 
 Ajout des keys MongoDB pour que le système reconnaisse les packages signés par MongoDB :
 ```bash
