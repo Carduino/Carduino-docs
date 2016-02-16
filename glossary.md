@@ -35,7 +35,7 @@ Il faut donc disposer d'un terminal permettant d'établir une connexion SSH sur 
 
 ## Node.JS - Javascript ES-2016
 
-<img class="logo" src='images/nodejs-logo.png' alt='Logo Javascript' />
+<img src='images/nodejs-logo.png' alt='Logo Javascript' />
 Javascript est le language principal du système. Sa compréhension est indispensable pour comprendre/modifier le système carduino. Il à l'avantage de ne pas nécessiter de compilation, d'être cross-platform, facile à apprendre, multi-paradigme, de plus en plus populaire, de disposer nativement de fonctionnalités réseau avancées, de fédérer une grande communauté de programmeurs, et d'être un des languages de script les plus rapides.
 
 La partie Client du système fait également un usage intensif de Javascript, on peut donc parler de système full-stack Javascript.
