@@ -5,7 +5,6 @@
     "plugins": [
         "collapsible-menu",
         "heading-anchors",
-        "edit-link",
         "js-sequence-diagram",
         "customtheme",
         "emphasize",
