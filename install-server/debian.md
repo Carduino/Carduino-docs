@@ -12,15 +12,14 @@
     Lancer l'utilitaire de configuration des locales :
     ```bash
     $ sudo dpkg-reconfigure locales
-	    # -> sélectionner avec la barre d’espace : `en_US.UTF-8 UTF-8`
-		# -> choisir la locale par default : `en_US.UTF-8`
+    #   -> sélectionner avec la barre d’espace : `en_US.UTF-8 UTF-8`
+	#   -> choisir la locale par default : `en_US.UTF-8`
 	```
 
 	Éditer le fichier de config des locales :
     ```bash
     $ sudo vim /etc/default/locale
-    ```
-    entrer dans le mode insertion `i` et ajouter la ligne : `LC_ALL=en_US.UTF-8`. 
+    #   entrer dans le mode insertion `i` et ajouter la ligne : `LC_ALL=en_US.UTF-8`. 
     
     Quitter le mode insertion `esc`, puis enregistrer le fichier `shift`+`z``z`
     
