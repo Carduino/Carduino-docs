@@ -1,1 +1,1 @@
-![Schéma de l'architecture globale du système carduino](images/architecture-full.png)
+![Schéma de l'architecture globale du système carduino](../images/architecture-full.png)
