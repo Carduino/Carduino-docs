@@ -7,7 +7,8 @@
         "heading-anchors",
         "edit-link",
         "js-sequence-diagram",
-        "customtheme"
+        "customtheme",
+        "emphasize"
     ],
     "pluginsConfig": {
         "edit-link": {
