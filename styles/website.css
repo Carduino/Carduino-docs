@@ -1,4 +1,9 @@
 /* CSS for website */
+img{
+    max-width: 80%;
+    max-height 100px;
+}
+
 .book .book-summary ul.summary li a:hover,
 .book .book-summary ul.summary li.active>a,
 .book .book-body .page-wrapper .page-inner section.normal a {
