@@ -4,7 +4,7 @@ Cette section détaille l'ensemble des technologies/librairies utilisées. La su
 
 ## Système d'exploitation
 
-![Logo Debian](images/debian-logo.png)
+<img class="logo" src='images/debian-logo.png' alt='Logo Debian' />
 L'ensemble du système informatique à été développé pour une utilisation optimale sur des systèmes Linux (Debian pour le serveur et Raspian pour les concentrateurs).
 Néanmoins,
 
@@ -26,7 +26,7 @@ Concernant les concentrateurs, Il est possible d'utiliser différentes distribut
 
 > Déconnexion : **`Ctrl + d`**
 
-<img src='images/ssh-logo.png' alt='Logo Iterm' />
+<img class="logo" src='images/ssh-logo.png' alt='Logo Iterm' />
 L'installation/configuration/lancement de tout le système se fait quasi-systématiquement via SSH.
 
 Il faut donc disposer d'un terminal permettant d'établir une connexion SSH sur la machine utilisée pour installer/configurer/lancer le système Cardiuno. C'est le cas de tous les Linux et de Mac-OSX. Pour windows, il faudra passer par un logiciel comme `PuTTY`, ou d'une machine virtuelle Linux pour disposer d'un terminal performant.
@@ -35,7 +35,7 @@ Il faut donc disposer d'un terminal permettant d'établir une connexion SSH sur 
 
 ## Node.JS - Javascript ES-2016
 
-<img src='images/nodejs-logo.png' alt='Logo Javascript' />
+<img class="logo" src='images/nodejs-logo.png' alt='Logo Javascript' />
 Javascript est le language principal du système. Sa compréhension est indispensable pour comprendre/modifier le système carduino. Il à l'avantage de ne pas nécessiter de compilation, d'être cross-platform, facile à apprendre, multi-paradigme, de plus en plus populaire, de disposer nativement de fonctionnalités réseau avancées, de fédérer une grande communauté de programmeurs, et d'être un des languages de script les plus rapides.
 
 La partie Client du système fait également un usage intensif de Javascript, on peut donc parler de système full-stack Javascript.
@@ -44,7 +44,7 @@ La partie Client du système fait également un usage intensif de Javascript, on
 
 ## MongoDB - Mongoose ODM
 
-<img src='images/mongodb-logo.png' alt='Logo MongoDB' />
+<img class="logo" src='images/mongodb-logo.png' alt='Logo MongoDB' />
 L'ensemble des données amassées par le réseau de capteur est stocké sur une base de donnée No-SQL MongoDB.
 Cette base de donnée est :
 Orientée documents
@@ -69,7 +69,7 @@ Il fonctionne grâce à un enchainnement de middlewares.
 
 ## Feathers.js
 
-<img src='images/feathers-logo.png' alt='Logo Feathers' />
+<img class="logo" src='images/feathers-logo.png' alt='Logo Feathers' />
 
 Feathers.js est une couche d'abstraction au dessus d'express, qui permet la mise en place de services avec un accès commun via une API REST ainsi qu'une API temps-réel (dans notre cas via socket.io).
 Notre api n'est donc déclarée qu'une fois dans le code source, et permet par exemple de réaliser des opérations BDD et de s'authentifier grace a des méchanismes commun, puis de répondre au client via le bon canal de communication automatiquement.
@@ -78,7 +78,7 @@ Notre api n'est donc déclarée qu'une fois dans le code source, et permet par e
 
 ## Socket.IO - Websockets
 
-<img src='images/socketio-logo.png' alt='Logo SocketIO' />
+<img class="logo" src='images/socketio-logo.png' alt='Logo SocketIO' />
 
 En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle réactive (système de Push) via websockets. Socket.IO est la librairie permettant de gérer les websockets, d'établir des rooms, et de gérer les connexions/reconnexion.
 
