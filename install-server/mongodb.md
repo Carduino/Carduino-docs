@@ -2,16 +2,16 @@
 
 ##Installation de MongoDB
 
->Ajouter les keys MongoDB pour que le système reconnaisse les packages signés par MongoDB et leur fasse confiance.
+Ajouter les keys MongoDB pour que le système reconnaisse les packages signés par MongoDB.
 
 ```bash
-	sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10  
+	$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10  
 ```
 
->Ajout de leur dépot aux sources du système.
+Ajout des dépots MongoDB aux sources du système.
 
 ```bash
-	echo "deb http://repo.mongodb.org/apt/debian wheezy/mongodb-org/3.2 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
+	$ echo "deb http://repo.mongodb.org/apt/debian wheezy/mongodb-org/3.2 main" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
 ```
 
 > mise à jour de la liste des packages puis Installation de MongoDB avec apt-get
