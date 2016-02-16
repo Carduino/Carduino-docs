@@ -45,7 +45,7 @@ La partie Client du système fait également un usage intensif de Javascript, on
 
 
 
-## MongoDB - Mongoose ORM
+## MongoDB - Mongoose ODM
 
 <img class="logo" src='images/mongodb-logo.png' alt='Logo MongoDB' />
 
@@ -59,7 +59,7 @@ Souple d'utilisation
 Adaptée aux infrastuctures complexes (Clouds, Shards, Replica-sets, etc.)
 Adaptée a de grandes quantitées de données.
 
-L'accès à cette base de donnée au sein du serveur sera fait via l'ORM Mongoose, permettant d'établir des modèles et de structurer les données.
+L'accès à cette base de donnée au sein du serveur sera fait via l'ODM Mongoose, permettant d'établir des modèles et de structurer les données.
 Pour un accès direct à la base de donnée, il est recommandé d'utiliser des clients comme MongoChef, MongoHub ou RoboMongo.
 
 
