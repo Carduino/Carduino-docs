@@ -69,7 +69,7 @@ Il fonctionne grâce à un enchainnement de middlewares.
 
 ## Feathers.js
 
-<img class="logo" src='images/feathers-logo.png' alt='Logo Feathers' />
+<img src='images/feathers-logo.png' alt='Logo Feathers' />
 
 Feathers.js est une couche d'abstraction au dessus d'express, qui permet la mise en place de services avec un accès commun via une API REST ainsi qu'une API temps-réel (dans notre cas via socket.io).
 Notre api n'est donc déclarée qu'une fois dans le code source, et permet par exemple de réaliser des opérations BDD et de s'authentifier grace a des méchanismes commun, puis de répondre au client via le bon canal de communication automatiquement.
@@ -78,7 +78,7 @@ Notre api n'est donc déclarée qu'une fois dans le code source, et permet par e
 
 ## Socket.IO - Websockets
 
-<img class="logo" src='images/socketio-logo.png' alt='Logo SocketIO' />
+<img src='images/socketio-logo.png' alt='Logo SocketIO' />
 
 En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle réactive (système de Push) via websockets. Socket.IO est la librairie permettant de gérer les websockets, d'établir des rooms, et de gérer les connexions/reconnexion.
 
