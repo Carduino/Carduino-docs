@@ -2,7 +2,9 @@
 img{
     display: block;
     margin: auto;
-    max-height: 150px;
+}
+img.logo{
+    max-height: 100px;
 }
 
 .book .book-summary ul.summary li a:hover,
