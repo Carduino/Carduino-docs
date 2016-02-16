@@ -4,7 +4,7 @@ Cette section détaille l'ensemble des technologies/librairies utilisées. La su
 
 ## Système d'exploitation
 
-<img src='images/debian-logo.png' alt='Logo Debian'>
+![Logo Debian](images/debian-logo.png)
 L'ensemble du système informatique à été développé pour une utilisation optimale sur des systèmes Linux (Debian pour le serveur et Raspian pour les concentrateurs).
 Néanmoins,
 
