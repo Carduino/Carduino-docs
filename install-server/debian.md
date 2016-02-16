@@ -26,7 +26,7 @@
     ```bash
     $ sudo vim /etc/default/locale
     ```
-    entrer dans le mode insertion <kbd>i</kbd> et ajouter la ligne : `LC_ALL=en_US.UTF-8`
+    entrer dans le mode insertion `i` et ajouter la ligne : `LC_ALL=en_US.UTF-8`
     
     Quitter le mode insertion `esc`, puis enregistrer le fichier `shift`+`z``z`
     
