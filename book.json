@@ -6,12 +6,17 @@
         "collapsible-menu",
         "heading-anchors",
         "edit-link",
+        "-search",
         "search-pro"
     ],
     "pluginsConfig": {
         "edit-link": {
             "base": "https://github.com/feathersjs/feathers-docs/edit/master",
             "label": "Edit This Page"
+        },
+        "search-pro": {
+            "cutWordLib": "nodejieba",
+            "defineWord" : ["小需求","基础建设"]
         }
     }
 }
