@@ -32,14 +32,12 @@
     ```bash
     $ sudo reboot
     ```
-    <br />
 
 4. Mettre le système à jour.
 
     ```bash
     $ apt-get update
     ```
-    <br />
 
 5. Installer/Activer SSH si ce n'est pas déjà fait
 
