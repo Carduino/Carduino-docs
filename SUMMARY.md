@@ -8,7 +8,7 @@
     * [Architecture des hubs]()
 * [Installation du serveur](install-server/readme.md)
     * [Debian](install-server/debian.md)
-    * [Git](install-server/vs/git.md)
+    * [Git](install-server/git.md)
     * [MongoDB](install-server/mongodb.md)
     * [NodeJS](install-server/nodejs.md)
     * [Carduino-server](install-server/carduino-server.md)
