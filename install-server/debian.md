@@ -10,14 +10,40 @@
 2. Lancer l'image iso et suivre le processus d'installation.
     
     * Bien noter le mot de passe root
-    * configurer les locales en anglais
-        * `en_US.UTF-8 UTF-8`
-3. Mettre le système à jour.
+    
+3. Configurer les locales en anglais
+
+    Lancer l'utilitaire de configuration des locales :
+    ```bash
+    $ sudo dpkg-reconfigure locales
+    ```
+    
+	sélectionner avec la barre d’espace : `en_US.UTF-8 UTF-8`
+	
+	choisir la locale par default : `en_US.UTF-8`
+	
+	Éditer le fichier de config des locales :
+    ```bash
+    $ sudo vim /etc/default/locale
+    ```
+    entrer dans le mode insertion <kbd>i</kbd> et ajouter la ligne : `LC_ALL=en_US.UTF-8`
+    
+    Quitter le mode insertion <kbd>esc</kbd>, puis enregistrer le fichier <kbd>shift</kbd>+<kbd>z</kbd><kbd>z</kbd>
+    
+    Redémarrer le serveur pour prendre les changements en compte :
+    ```bash
+    $ sudo reboot
+    ```
+
+4. Mettre le système à jour.
 
     ```bash
     $ apt-get update
     ```
-4. Activer la connexion SSH si elle n'est pas déjà activée
+5. Activer la connexion SSH si elle n'est pas déjà activée
+
+
+
 
 
 
