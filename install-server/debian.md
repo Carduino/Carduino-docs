@@ -40,7 +40,7 @@
     ```bash
     $ apt-get update
     ```
-5. Activer la connexion SSH si elle n'est pas déjà activée
+5. Installer/Activer SSH si ce n'est pas déjà fait
 
 
 
