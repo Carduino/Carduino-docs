@@ -12,7 +12,7 @@
         "image-captions",
         "js-sequence-hand-diagram",
         "light-it",
-        "-richquotes"
+        "richquotes"
     ],
     "pluginsConfig": {
         "edit-link": {
