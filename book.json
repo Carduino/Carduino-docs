@@ -6,7 +6,8 @@
         "collapsible-menu",
         "heading-anchors",
         "edit-link",
-        "js-sequence-diagram"
+        "js-sequence-diagram",
+        "customtheme"
     ],
     "pluginsConfig": {
         "edit-link": {
