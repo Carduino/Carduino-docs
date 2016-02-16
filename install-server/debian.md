@@ -10,7 +10,7 @@
     <br />
 
 2. Lancer l'image iso et suivre le processus d'installation.
-    * Bien noter le mot de passe root.
+    * Attention! Penser à bien noter le mot de passe root.
     <br />
     <br />
 
