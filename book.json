@@ -9,7 +9,8 @@
         "js-sequence-diagram",
         "customtheme",
         "emphasize",
-        "image-captions"
+        "image-captions",
+        "js-sequence-hand-diagram"
     ],
     "pluginsConfig": {
         "edit-link": {
