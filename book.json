@@ -15,8 +15,6 @@
         "todo"
     ],
     "pluginsConfig": {
-        "edit-link": {
-            "label": "Editer cette page"
-        }
+
     }
 }
