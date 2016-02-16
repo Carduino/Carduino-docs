@@ -2,9 +2,7 @@
 
 ##Procédure d'installation de Debian
 
->Nous utiliserons la version 8 de Debian (Debian Jessie)
-
-1. Télécharger l'image iso de Debian Jessie
+1. Télécharger l'image iso de la version 8 de Debian (Debian Jessie)
     * [Debian 8.3.0 amd64.iso (netinst)](http://cdimage.debian.org/debian-cd/8.3.0/amd64/iso-cd/debian-8.3.0-amd64-netinst.iso)
     <br />
     <br />
