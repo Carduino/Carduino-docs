@@ -4,29 +4,23 @@
 
 >Nous utiliserons la version 8 de Debian (Debian Jessie)
 
-1. Télécharger l'image iso de Debian Jessie
-
-    * [Debian 8.3.0 amd64.iso (netinst)](http://cdimage.debian.org/debian-cd/8.3.0/amd64/iso-cd/debian-8.3.0-amd64-netinst.iso)
-2. Lancer l'image iso et suivre le processus d'installation.
+1. Télécharger l'image iso de Debian Jessie [Debian 8.3.0 amd64.iso (netinst)](http://cdimage.debian.org/debian-cd/8.3.0/amd64/iso-cd/debian-8.3.0-amd64-netinst.iso)
+2. Lancer l'image iso et suivre le processus d'installation. Bien noter le mot de passe root.
     
-    * Bien noter le mot de passe root
-    
-3. Configurer les locales en anglais
+3. Configurer les locales en anglais U.S. encodage UTF-8
 
     Lancer l'utilitaire de configuration des locales :
     ```bash
     $ sudo dpkg-reconfigure locales
-    ```
-    
-	sélectionner avec la barre d’espace : `en_US.UTF-8 UTF-8`
-	
-	choisir la locale par default : `en_US.UTF-8`
-	
+	    # -> sélectionner avec la barre d’espace : `en_US.UTF-8 UTF-8`
+		# -> choisir la locale par default : `en_US.UTF-8`
+	```
+
 	Éditer le fichier de config des locales :
     ```bash
     $ sudo vim /etc/default/locale
     ```
-    entrer dans le mode insertion `i` et ajouter la ligne : `LC_ALL=en_US.UTF-8`
+    entrer dans le mode insertion `i` et ajouter la ligne : `LC_ALL=en_US.UTF-8`. 
     
     Quitter le mode insertion `esc`, puis enregistrer le fichier `shift`+`z``z`
     
