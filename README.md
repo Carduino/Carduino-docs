@@ -1,6 +1,4 @@
-# Carduino
-
-> Réseau de capteurs communicants
+# Carduino, Réseau de capteurs communicants
 
 Carduino est le fruit d'un projet d'étudiants ingénieurs de l'[ESTIA](http://www.estia.fr) (École Supérieure des Technologie Industrielles Avancées). Il s'agit d'un démonstrateur, témoin du savoir-faire et des compétences des étudiants et enseignants de l'ESTIA en matière d'éléctronique, d'informatique et de systèmes embarqués.
 
@@ -8,13 +6,6 @@ Au delà de cela, il a été conçu de manière à pouvoir être facilement re-u
 
 Avec Carduino, il est facile de mettre en place un réseau hétérogène de capteurs autonomes, et de traiter les données acquises en temps réel au moyen d'une API commune REST/Websockets.
 Cette documentation va voir dire tout ce dont vous avez besoin pour créer des réseaux de capteurs avec Carduino.
-
-With Feathers it's easy to create scalable real-time applications. This guide will tell you everything you need to know about creating web and mobile applications with Feathers.
-
-We have an [introductory tutorial](getting-started/your-first-app.md) to get you ramped up quickly and some [helpful guides](guides/) to do more advanced things. Beyond that, this guide can be used as a general reference.
-
-Sounds good? [Let's get started](getting-started/readme.md)!
-
 
 Si vous souhaitez consulter cette documentation dans d'autres formats, la dernière version existe en:
 
