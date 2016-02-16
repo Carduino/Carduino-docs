@@ -9,7 +9,7 @@ Assurez vous que la liste des packages du système est bien à jour, puis instal
 	sudo apt-get install git-core
 ```
 
-##Configuration minimale
+##Configuration minimale de Git
 
 
 Git implémente la gestion de version à partir de deux paramètres pricipaux.
