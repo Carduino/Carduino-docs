@@ -48,6 +48,8 @@ La partie Client du système fait également un usage intensif de Javascript, on
 ## MongoDB - Mongoose ODM
 
 <img class="logo" src='images/mongodb-logo.png' alt='Logo MongoDB' />
+
+
 L'ensemble des données amassées par le réseau de capteur est stocké sur une base de donnée No-SQL MongoDB.
 Cette base de donnée est :
 Orientée documents
