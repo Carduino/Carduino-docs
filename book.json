@@ -10,7 +10,8 @@
         "customtheme",
         "emphasize",
         "image-captions",
-        "js-sequence-hand-diagram"
+        "js-sequence-hand-diagram",
+        "light-it"
     ],
     "pluginsConfig": {
         "edit-link": {
