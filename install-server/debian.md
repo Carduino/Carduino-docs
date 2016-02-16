@@ -11,7 +11,6 @@
 2. Lancer l'image iso et suivre le processus d'installation.
     * Bien noter le mot de passe root.
 
-
 3. Configurer les locales en anglais U.S. encodage UTF-8
 
     * Lancer l'utilitaire de configuration des locales :
