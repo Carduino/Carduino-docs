@@ -41,7 +41,6 @@
     $ apt-get update
     ```
     <br />
-    <br />
 
 5. Installer/Activer SSH si ce n'est pas déjà fait
 
