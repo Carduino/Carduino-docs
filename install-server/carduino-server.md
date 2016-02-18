@@ -84,4 +84,4 @@ $ git remote add production ssh://root@[ip_ou_ndd]/var/repo/neo-creators.git
 ```bash
 $ git push production master
 ```
->`master`représente la branche du dépôt local qui va être poussée jusqu'au serveur. Si vous souhaitez modifier le code source, il serait bon de le faire dans une branche dédiée (par exemple une branche nommée `dev`ou `test`). Il faudra alors adapter la commande ci-dessus en conséquence. 
+>`master` représente la branche du dépôt local qui va être poussée jusqu'au serveur. Si vous souhaitez modifier le code source, il serait bon de le faire dans une branche dédiée (par exemple une branche nommée `dev`ou `test`). Il faudra alors adapter la commande ci-dessus en conséquence. 
