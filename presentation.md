@@ -1,6 +1,6 @@
 # Présentation du projet
 
-## Équipe
+## Contributeurs
 
 Le système Carduino à entièrement été développé dans le cadre des Projets de 2ème année de l'ESTIA par une équipe composée de 4 étudiants :
 * [Vincent Dauliac](https://www.linkedin.com/in/vincentdauliac)
