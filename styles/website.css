@@ -6,6 +6,9 @@ img{
 img.logo{
     max-height: 100px;
 }
+p{
+    text-align: justify;
+}
 
 .book .book-summary ul.summary li a:hover,
 .book .book-summary ul.summary li.active>a,
