@@ -20,9 +20,9 @@
    * Carduino-hub
 * Configuration
 * Interface web
-* APIs Carduino
+* APIs Carduino-Server
    * API REST
-   * API Websockets
+   * API Websocket
 * Bibliographie
 * Liens utiles
 
