@@ -20,8 +20,8 @@ $ git init --bare --shared=developers
 
 $ vim hooks/post-receive
     -> remplacer le contenu du fichier par :
-    	#!/bin/sh
-         git --work-tree=/var/www/neo-creators.com --git-dir=/var/repo/neo-creators.git checkout -f
+        #!/bin/sh
+        git --work-tree=/var/www/neo-creators.com --git-dir=/var/repo/neo-creators.git checkout -f
 
 $ chmod +x hooks/post-receive
 ```
