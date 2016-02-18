@@ -7,13 +7,9 @@
 
 2. Configuration d'un hook pour déployer automatiquement le contenu de ce dépôt dans le dossier d'exécution lors d'une modification du code (pull ou réception d'un push).
 
-3. installer et configurer le task-runner Forever pour lancer Carduino-server en tant que deamon et se relancer automatiquement en cas de modification du code.
+3. Cloner le dépôt GitHub hébergeant le code source en local, puis ajouter le dépôt Git du serveur en tant que dépôt distant.
 
-4. Cloner le dépôt GitHub hébergeant le code source en local, puis ajouter le dépôt Git du serveur en tant que dépôt distant.
-
-5. Faire d'éventuelles modifications du code source (configuration, etc)
-
-6. Faire un push à destination du dépôt distant. Lorsque le serveur recevra la le push, le hook post-receive sera déclenché sur le dépôt distant, et déploiera la mise à jour dans le dossier d'exécution de Carduino-server.
+4. Faire un push à destination du dépôt distant. Lorsque le serveur recevra la le push, le hook post-receive sera déclenché sur le dépôt distant, et déploiera la mise à jour dans le dossier d'exécution de Carduino-server.
 
 
 
@@ -21,7 +17,7 @@
 
 #### 1. Création du dépôt Git et du dossier de déploiement/d'exécution :
 
-* ##### pour le dépôt :
+* ##### pour le dépôt
 ```bash
 $ mkdir -p /var/repo/Carduino-server.git
 $ cd /var/repo/Carduino-server.git
@@ -52,7 +48,7 @@ $ vim hooks/post-receive
 Entrer en mode insertion en appuyant sur la touche **i**, puis coller le code suivant :
 ```bash
 #!/bin/sh
-git --work-tree=/var/www/neo-creators.com --git-dir=/var/repo/neo-creators.git checkout -f
+git --work-tree=/var/www/Carduino-server --git-dir=/var/repo/Carduino-server.git checkout -f
 ```
 Quitter le mode insertion en appuyant sur la touche **esc**, puis enregistrer le fichier et quitter l'éditeur en appuyant sur la touche **shift** + **z** + **z**.
     
@@ -61,32 +57,29 @@ Quitter le mode insertion en appuyant sur la touche **esc**, puis enregistrer le
 $ chmod +x hooks/post-receive
 ```
 
-
-#### 3. installer et configurer Forever
-
-Initialisation 
-```bash
-
-
-$ vim hooks/post-receive
-    -> remplacer le contenu du fichier par :
-        #!/bin/sh
-        git --work-tree=/var/www/neo-creators.com --git-dir=/var/repo/neo-creators.git checkout -f
-
-$ chmod +x hooks/post-receive
-```
-
 ---
 
 
 ### Sur la machine de développement
 
+#### 3. Clonage du dépot Github et ajout du dépôt distant
 
-
-#### Clonage du dépot Github
-
-
-
+* ##### Clonage du code source
 ```bash
+$ cd chemin/vers/le/repertoire/parent/du/clone
 $ git clone https://github.com/Carduino/Carduino-server.git
 ```
+>Le chemin vers le dossier qui contiendra la copie locale du code source peut être librement choisie.
+
+* ##### Ajout du dépôt distant
+```bash
+$ cd Carduino-server
+$ git remote add production ssh://root@[ip_ou_ndd]/var/repo/neo-creators.git
+```
+
+
+#### 5. Deployer Carduino-serveur
+```bash
+$ git push production master
+```
+>`master`représente la branche du dépôt local qui va être poussée jusqu'au serveur. Si vous souhaitez modifier le code source, il serait bon de le faire dans une branche dédiée (par exemple une branche nommée `dev`ou `test`). Il faudra alors adapter la commande ci-dessus en conséquence. 
