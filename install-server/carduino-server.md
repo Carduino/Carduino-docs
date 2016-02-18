@@ -17,7 +17,7 @@
 
 ### Sur le serveur
 
-#### 1. Création du dépôt Git et du dossier de déploiement/d'exécution :
+#### 1. Création du dépôt Git et du dossier de déploiement/d'exécution
 
 * ##### pour le dépôt
 ```bash
