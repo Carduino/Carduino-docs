@@ -20,11 +20,11 @@ $ sudo apt-get update
 $ sudo apt-get install mongodb-org -y
 ```
 
-Si vous voulez supprimer le dépot Mongo DB des sources de votre système par la suite, supprimez simplement le fichier suivant :
+>**Note:** Si vous voulez supprimer le dépot Mongo DB des sources de votre système par la suite, supprimez simplement le fichier suivant :
 `/etc/apt/sources.list.d/mongodb-org-3.0.list`
 
 ##Configuration de MongoDB
 
->Attention, la configuration de MongoDB est une étape cruciale et très sensible !
+>**Attention:** La configuration de MongoDB est une étape cruciale et très sensible !
 
 Le contenu de cette section n'est pas encore disponnible...
