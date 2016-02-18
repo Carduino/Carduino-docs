@@ -1,6 +1,7 @@
 # Prérequis
 
-Cette section détaille l'ensemble des technologies/librairies utilisées. La suite de la documentation
+Cette section détaille l'ensemble des technologies/librairies utilisées. Chaque composant utilisé par Carduino est open-source et bien documenté. Nous ne détaillerons donc pas le fonctionnement de chacun de ces composant dans la suite de la documentation. 
+
 
 ## Système d'exploitation
 
@@ -14,6 +15,7 @@ Il est possible, sans portage particulier, de lancer le serveur sur la plus part
 Concernant les concentrateurs, Il est possible d'utiliser différentes distributions de Linux, mais la partie concernant l'acquisition des données (les communications via le GPIO du Raspberry Pi) devra certainement être adaptée.
 
 À l'heure actuel, Raspbian se base sur la dernière version de Debian (version 8 / Debian Jessie). Les OS de tous le système carduino font donc preuve d'une certaine unité qui facilite le travail.
+
 
 ## terminal SSH
 
@@ -29,15 +31,27 @@ Connexion SSH vers un serveur :
 ```
 Déconnexion : **`Ctrl + d`**
 
-## Node.JS - Javascript ES-2016
 
-<img class="logo" src='images/nodejs-logo.png' alt='Logo Javascript' />
+##Javascript ES6
+
+<img class="logo" src='images/javascript-logo.png' alt='Logo Javascript' />
 
 Javascript est le language principal du système. Sa compréhension est indispensable pour comprendre/modifier le système carduino. Il à l'avantage de ne pas nécessiter de compilation, d'être cross-platform, facile à apprendre, multi-paradigme, de plus en plus populaire, de disposer nativement de fonctionnalités réseau avancées, de fédérer une grande communauté de programmeurs, et d'être un des languages de script les plus rapides.
 
 La partie Client du système fait également un usage intensif de Javascript, on peut donc parler de système full-stack Javascript.
 
-## MongoDB - Mongoose ODM
+Certaines fonctionnalités récemment ajoutés à Javascript grâce à la nouvelle norme ES6 seront utilisées dans le projet. ES6 étant encorre à l'état de brouillon, et indeiponnible dans certains environnements d'exécution, nous utiliseront des pré-processeurs ([Babel](https://babeljs.io) par exemple) pour "compiler" notre code ES6 en ES5 classique si besoin.
+
+
+## Node.JS
+
+<img class="logo" src='images/nodejs-logo.png' alt='Logo Javascript' />
+
+Le back-end Javascript sera exécuté dans un environnement NodeJS, une plateforme d'execution Javascript populaire est basé sur le très performant moteur Javascript V8 de chez Google.
+La gestion des dépendances des apps node seront gérées par le gestionnaire de paquets npm (node package manager).
+
+
+## MongoDB
 
 <img class="logo" src='images/mongodb-logo.png' alt='Logo MongoDB' />
 
@@ -55,6 +69,9 @@ L'accès à cette base de donnée au sein du serveur sera fait via l'ODM Mongoos
 Pour un accès direct à la base de donnée, il est recommandé d'utiliser des clients comme MongoChef, MongoHub ou RoboMongo.
 
 
+## Mongoose
+Mongoose est ce qu'on appelle un ODM (Object Documment Mapper) pour MongoDB. C'est en quelques sortes l'équivalent d'un ORM mais pour bases de données orientées documents.
+
 
 ## Express.js - Connect.js
 
@@ -71,7 +88,6 @@ Feathers.js est une couche d'abstraction au dessus d'express, qui permet la mise
 Notre api n'est donc déclarée qu'une fois dans le code source, et permet par exemple de réaliser des opérations BDD et de s'authentifier grace a des méchanismes commun, puis de répondre au client via le bon canal de communication automatiquement.
 
 
-
 ## Socket.IO - Websockets
 
 <img class="logo" src='images/socketio-logo.png' alt='Logo SocketIO' />
@@ -79,11 +95,9 @@ Notre api n'est donc déclarée qu'une fois dans le code source, et permet par e
 En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle réactive (système de Push) via websockets. Socket.IO est la librairie permettant de gérer les websockets, d'établir des rooms, et de gérer les connexions/reconnexion.
 
 
-
 ## Jade - HTML5
 
 L'interface web se base sur du HTML5. Il sera généré côté serveur grace au pré-processeur/Moteur de template JADE, dont la syntaxe épurée se base sur l'indentation (syntaxe type HAML).
-
 
 
 ## Stylus - CSS3
