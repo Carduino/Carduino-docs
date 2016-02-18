@@ -5,8 +5,8 @@
 Le système Carduino à entièrement été développé dans le cadre des Projets de 2ème année de l'ESTIA par une équipe composée de 4 étudiants :
 * [Vincent Dauliac](https://www.linkedin.com/in/vincentdauliac)
 * Marc Dando
-* Alexandre Marcuzzo
-* Bruno Caquinaud
+* [Alexandre Marcuzzo](https://www.linkedin.com/in/alexandre-marcuzzo-82a182109)
+* [Bruno Caquinaud](https://www.linkedin.com/in/bruno-caquinaud-280354109)
 
 L'équipe à été chapeautée par __Guillaume Terrasson__, Enseignant-chercheur à l'ESTIA, qui à joué le rôle de client et de tuteur, et __Patrick Guennec__, un intervenant Extérieur qui à coaché l'équipe sur l'aspect organisationnel.
 
