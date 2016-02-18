@@ -14,6 +14,8 @@
 > Les étapes 1 & 2 se déroulent donc sur le **serveur**, et les étapes 3 & 4 sur la **machine de développement**.
 
 
+---
+
 
 ### Sur le serveur
 
@@ -58,8 +60,6 @@ Quitter le mode insertion en appuyant sur la touche **esc**, puis enregistrer le
 ```bash
 $ chmod +x hooks/post-receive
 ```
-
----
 
 
 ### Sur la machine de développement
