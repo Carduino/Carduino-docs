@@ -21,12 +21,12 @@ user.email | L'email de l'utilisateur
 
 Ces informations se retrouveront dans chaque commit que vous ferez avec Git, qui pourra donc identifier l'auteur de chaque modification.
 
-Définir le username de Git :
+* Définir le username de Git :
 ```bash
 $ git config --global user.name "Votre nom"
 ```
 
-Définir l'email de Git :
+* Définir l'email de Git :
 ```bash
 $ git config --global user.email sammy@example.com
 ```
