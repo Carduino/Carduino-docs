@@ -1,4 +1,4 @@
-# Summary
+# Sommaire
 
 * [Introduction](README.md)
 * [Présentation du projet](presentation.md)
