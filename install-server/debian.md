@@ -44,6 +44,7 @@
     ```
 
 5. Installer/Activer SSH si ce n'est pas déjà fait
+    >La procédure dépend des cas de figure.
 
 
 
