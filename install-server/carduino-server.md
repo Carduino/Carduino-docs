@@ -54,7 +54,7 @@ Entrer en mode insertion en appuyant sur la touche `i`, puis coller le code suiv
 #!/bin/sh
 git --work-tree=/var/www/Carduino-server --git-dir=/var/repo/Carduino-server.git checkout -f
 ```
-Quitter le mode insertion en appuyant sur la touche **esc**, puis enregistrer le fichier et quitter l'éditeur en appuyant sur la touche `shift` + `z` + `z`.
+Quitter le mode insertion en appuyant sur la touche `esc`, puis enregistrer le fichier et quitter l'éditeur en appuyant sur la touche `shift` + `z` + `z`.
     
 * Mettre les bons droits d'accès au fichier :
 ```bash
