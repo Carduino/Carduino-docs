@@ -1,6 +1,6 @@
 # Carduino, Réseau de capteurs communicants
 
-Carduino est le fruit d'un projet d'étudiants ingénieurs de l'[ESTIA](http://www.estia.fr) (École Supérieure des Technologie Industrielles Avancées). Il s'agit d'un démonstrateur, témoin du savoir-faire et des compétences des étudiants et enseignants de l'ESTIA en matière d'éléctronique, d'informatique et de systèmes embarqués.
+Carduino est le fruit d'un projet d'étudiants ingénieurs de l'[ESTIA](http://www.estia.fr) (École Supérieure des Technologie Industrielles Avancées). Il s'agit d'un démonstrateur, témoin du savoir-faire et des compétences des étudiants et enseignants de l'ESTIA en matière d'éléctronique, d'informatique, et de systèmes embarqués.
 
 Au delà de cela, il a été conçu de manière à pouvoir être facilement re-utilisé et modifié, ans le but de prendre part à de futures activités pédagogiques (TP, cours) et de recherche (capteurs autonomes, énergie, collecte de données).
 
