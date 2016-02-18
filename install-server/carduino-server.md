@@ -1,22 +1,72 @@
 # Carduino-server
+>Le code source de Carduino-server est hébergé sur le dépot Github [Carduino-server](https://github.com/Carduino/Carduino-server) de l'organisation [Carduino](https://github.com/Carduino).
+
+####La statégie de déploiement Carduino-server est la suivante :
+
+1. Création un dépôt Git nu ansi que d'un dossier de déploiement/d'exécution pour Carduino-server. 
+
+2. Configuration d'un hook pour déployer automatiquement le contenu de ce dépôt dans le dossier d'exécution lors d'une modification du code (pull ou réception d'un push).
+
+3. installer et configurer le task-runner Forever pour lancer Carduino-server en tant que deamon et se relancer automatiquement en cas de modification du code.
+
+4. Cloner le dépôt GitHub hébergeant le code source en local, puis ajouter le dépôt Git du serveur en tant que dépôt distant.
+
+5. Faire d'éventuelles modifications du code source (configuration, etc)
+
+6. Faire un push à destination du dépôt distant. Lorsque le serveur recevra la le push, le hook post-receive sera déclenché sur le dépôt distant, et déploiera la mise à jour dans le dossier d'exécution de Carduino-server.
 
 
 
 ### Sur le serveur
 
-#### Création du dossier du dépot Git :
+#### 1. Création du dépôt Git et du dossier de déploiement/d'exécution :
 
+* ##### pour le dépôt :
 ```bash
 $ mkdir -p /var/repo/Carduino-server.git
 $ cd /var/repo/Carduino-server.git
 
 $ chown -R root:developers .
 $ chmod -R g+rwX .
+
+$ git init --bare --shared=developers
 ```
 
-#### Création du dépot :
+* ##### pour le déploiement/l'exécution
 ```bash
-$ git init --bare --shared=developers
+$ mkdir -p /var/www/Carduino-server
+$ cd /var/repo/www/Carduino-server
+
+$ chown -R root:developers .
+$ chmod -R g+rwX .
+```
+
+
+#### 2. Creation du hook post-receive
+
+* ##### création et ouverture du fichier
+```bash
+$ vim hooks/post-receive
+```
+* ##### édition du hook 
+Entrer en mode insertion en appuyant sur la touche **i**, puis coller le code suivant :
+```bash
+#!/bin/sh
+git --work-tree=/var/www/neo-creators.com --git-dir=/var/repo/neo-creators.git checkout -f
+```
+Quitter le mode insertion en appuyant sur la touche **esc**, puis enregistrer le fichier et quitter l'éditeur en appuyant sur la touche **shift** + **z** + **z**.
+    
+* Mettre les bons droits d'accès au fichier :
+```bash
+$ chmod +x hooks/post-receive
+```
+
+
+#### 3. installer et configurer Forever
+
+Initialisation 
+```bash
+
 
 $ vim hooks/post-receive
     -> remplacer le contenu du fichier par :
@@ -35,7 +85,7 @@ $ chmod +x hooks/post-receive
 
 #### Clonage du dépot Github
 
->Le code source de Carduino-server est hébergé sur le dépot Github [Carduino-server](https://github.com/Carduino/Carduino-server) de l'organisation [Carduino](https://github.com/Carduino).
+
 
 ```bash
 $ git clone https://github.com/Carduino/Carduino-server.git
