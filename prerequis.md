@@ -1,6 +1,6 @@
 # Prérequis
 
-Cette section détaille l'ensemble des technologies/librairies utilisées. Chaque composant utilisé par Carduino est open-source et bien documenté. Nous ne détaillerons donc pas le fonctionnement de chacun de ces composant dans la suite de la documentation. 
+>Cette section détaille l'ensemble des technologies/librairies utilisées. Chaque composant utilisé par Carduino est open-source et bien documenté. Nous ne détaillerons donc pas le fonctionnement de chacun de ces composant dans la suite de la documentation. 
 
 
 ## Système d'exploitation
@@ -70,10 +70,15 @@ Pour un accès direct à la base de donnée, il est recommandé d'utiliser des c
 
 
 ## Mongoose
+
+<img class="logo" src='images/mongoose-logo.png' alt='Logo Mongoose' />
+
 Mongoose est ce qu'on appelle un ODM (Object Documment Mapper) pour MongoDB. C'est en quelques sortes l'équivalent d'un ORM mais pour bases de données orientées documents.
 
 
 ## Express.js - Connect.js
+
+<img class="logo" src='images/express-logo.png' alt='Logo Express' />
 
 Express.js, basé sur connect, est le framework de base utilisé par le serveur Carduino.
 Il permet de gérer les communications, les routes (urls / API RESTFull) du serveur, l'authentification, etc.
@@ -97,9 +102,13 @@ En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle
 
 ## Jade - HTML5
 
+<img class="logo" src='images/jade-logo.png' alt='Logo Jade' />
+
 L'interface web se base sur du HTML5. Il sera généré côté serveur grace au pré-processeur/Moteur de template JADE, dont la syntaxe épurée se base sur l'indentation (syntaxe type HAML).
 
 
 ## Stylus - CSS3
+
+<img class="logo" src='images/stylus-logo.png' alt='Logo Stylus' />
 
 La mise en forme de l'interface web se base sur CSS3. Il sera généré coté serveur  grace au pré-processeur Stylus, dont la syntaxe épurée se base sur l'indentation (syntaxe type SASS/SCSS améliorée).
