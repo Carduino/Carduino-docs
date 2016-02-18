@@ -1,7 +1,7 @@
 # Carduino-server
 >Le code source de Carduino-server est hébergé sur le dépot Github [Carduino-server](https://github.com/Carduino/Carduino-server) de l'organisation [Carduino](https://github.com/Carduino).
 
-#####La statégie de déploiement Carduino-server est la suivante :
+####La statégie de déploiement Carduino-server est la suivante :
 
 1. Création d'un dépôt Git nu ansi que d'un dossier de déploiement/d'exécution pour Carduino-server. 
 
