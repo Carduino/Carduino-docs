@@ -3,13 +3,15 @@
 
 ####La statégie de déploiement Carduino-server est la suivante :
 
-1. Création un dépôt Git nu ansi que d'un dossier de déploiement/d'exécution pour Carduino-server. 
+1. Création d'un dépôt Git nu ansi que d'un dossier de déploiement/d'exécution pour Carduino-server. 
 
 2. Configuration d'un hook pour déployer automatiquement le contenu de ce dépôt dans le dossier d'exécution lors d'une modification du code (pull ou réception d'un push).
 
 3. Cloner le dépôt GitHub hébergeant le code source en local, puis ajouter le dépôt Git du serveur en tant que dépôt distant.
 
-4. Faire un push à destination du dépôt distant. Lorsque le serveur recevra la le push, le hook post-receive sera déclenché sur le dépôt distant, et déploiera la mise à jour dans le dossier d'exécution de Carduino-server.
+4. Faire un push à destination du dépôt distant. Lorsque le serveur recevra la le push, le hook post-receive sera déclenché, et déploiera la mise à jour dans le dossier d'exécution.
+
+> Les étapes 1 & 2 se déroulent donc sur le **serveur**, et les étapes 3 & 4 sur la **machine de développement**.
 
 
 
@@ -21,10 +23,10 @@
 ```bash
 $ mkdir -p /var/repo/Carduino-server.git
 $ cd /var/repo/Carduino-server.git
-
+#gestion des droits
 $ chown -R root:developers .
 $ chmod -R g+rwX .
-
+#initialisation d'un dépôt nu   
 $ git init --bare --shared=developers
 ```
 
@@ -32,7 +34,7 @@ $ git init --bare --shared=developers
 ```bash
 $ mkdir -p /var/www/Carduino-server
 $ cd /var/repo/www/Carduino-server
-
+#gestion des droits
 $ chown -R root:developers .
 $ chmod -R g+rwX .
 ```
