@@ -12,6 +12,6 @@ Cette documentation va voir dire tout ce dont vous avez besoin pour créer des r
 Si vous souhaitez consulter cette documentation dans d'autres formats, la dernière version existe en:
 
 - [Web](http://docs.carduino.com)
-- [PDF](https://www.gitbook.com/download/pdf/book/vincentdauliac/carduino-docs)
-- [ePub](https://www.gitbook.com/download/epub/book/vincentdauliac/carduino-docs)
-- [Mobi](https://www.gitbook.com/download/mobi/book/vincentdauliac/carduino-docs)
+- [PDF](https://www.gitbook.com/download/pdf/book/carduino/carduino-docs)
+- [ePub](https://www.gitbook.com/download/epub/book/carduino/carduino-docs)
+- [Mobi](https://www.gitbook.com/download/mobi/book/carduino/carduino-docs)
