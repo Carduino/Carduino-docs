@@ -3,7 +3,7 @@
 
 ### La statégie de déploiement Carduino-server est la suivante :
 
-1. Création d'un dépôt Git nu ansi que d'un dossier de déploiement/d'exécution pour Carduino-server. 
+1. Création d'un dépôt Git nu ainsi que d'un dossier de déploiement/d'exécution pour Carduino-server. 
 
 2. Configuration d'un hook pour déployer automatiquement le contenu de ce dépôt dans le dossier d'exécution lors d'une modification du code (pull ou réception d'un push).
 
