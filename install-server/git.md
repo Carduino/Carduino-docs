@@ -12,7 +12,7 @@ $ sudo apt-get install git-core
 ##Configuration minimale de Git
 
 
-Git implémente la gestion de version à partir de deux paramètres pricipaux.
+Git implémente la gestion de version à partir de deux paramètres principaux.
 
 Paramètre | Description
 --------- | -----------
