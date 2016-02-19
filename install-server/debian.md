@@ -23,7 +23,7 @@
 	    * Choisir la locale par default : en_US.UTF-8
 <br />
 <br />
-	* Éditer le fichier de config des locales :
+	* Éditer le fichier de configuration des locales :
 
     ```bash
     $ sudo vim /etc/default/locale
