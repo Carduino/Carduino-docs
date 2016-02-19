@@ -31,7 +31,7 @@ Connexion SSH vers un serveur :
 ```bash
 	ssh -p 'port du serveur' 'utilisateur'@'IP ou ndd'
 ```
-Déconnexion : **`Ctrl + d`**
+Déconnexion : `Ctrl`+`d`
 
 > [Documentation SSH Debian](https://wiki.debian.org/fr/SSH)
 
