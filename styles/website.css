@@ -13,7 +13,7 @@ p{
 .book .book-summary ul.summary li a:hover,
 .book .book-summary ul.summary li.active>a,
 .book .book-body .page-wrapper .page-inner section.normal a {
-  color: #b72036;
+  color: #e05264;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal a.anchorjs-link {
@@ -38,7 +38,7 @@ p{
 
 /* Page Titles */
 .book .book-body .page-wrapper .page-inner section.normal h1 {
-  color: #b72036;
+  color: #e05264;
 }
 
 .book .book-body .page-wrapper .page-inner section.normal h2 {
