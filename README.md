@@ -4,8 +4,8 @@
 
 Carduino est le fruit d'un projet d'étudiants ingénieurs de l'[**ESTIA**](http://www.estia.fr) (École Supérieure des Technologie Industrielles Avancées). Il s'agit d'un **démonstrateur**, témoin du savoir-faire et des compétences des étudiants et enseignants de l'ESTIA en matière d'électronique, d'informatique, et de systèmes embarqués.
 
-Avec Carduino, il est facile de mettre en place **un réseau hétérogène de capteurs autonomes**, et de traiter les données acquises en **temps réel** au moyen d'une API commune REST/Websocket.
-Cette documentation va voir dire tout ce dont vous avez besoin pour créer des réseaux de capteurs avec Carduino.
+Avec Carduino, il est possible de mettre en place **des réseaux hétérogènes de capteurs autonomes**, et de traiter les données acquises en **temps réel** au moyen d'une API commune REST/Websocket.
+Cette documentation va vous dire tout ce dont vous avez besoin pour mettre en place de tels réseaux, et adapter Carduino à vos besoins.
 
 Si vous souhaitez consulter cette documentation dans d'autres formats, la dernière version existe en:
 
