@@ -187,9 +187,11 @@ Forever est un outil en ligne de commande permettant d'exécuter une application
 
 ## Markdown
 
-Blablabla
+<img class="logo" src='images/markdown-logo.png' alt='Logo Markdown' />
 
-> [Documentation Markdown]()
+Markdown est un langage de balisage léger créé par John Gruber en 2004. Son but est d'offrir une syntaxe facile à lire et à écrire. Un document formaté selon Markdown devrait pouvoir être publié comme tel, en texte, sans donner l’impression qu’il a été marqué par des balises ou des instructions de formatage.
+
+> [Documentation Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
 ## Arduino
