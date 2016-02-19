@@ -8,7 +8,7 @@ Le système Carduino à entièrement été développé dans le cadre des Projets
 * [Alexandre Marcuzzo](https://www.linkedin.com/in/alexandre-marcuzzo-82a182109)
 * [Bruno Caquinaud](https://www.linkedin.com/in/bruno-caquinaud-280354109)
 
-L'équipe à été chapeautée par __Guillaume Terrasson__, Enseignant-chercheur à l'ESTIA, qui à joué le rôle de client et de tuteur, et [__Patrick Guennec__](https://www.linkedin.com/in/patrick-guennec-1724a343), un intervenant Extérieur qui à coaché l'équipe sur l'aspect organisationnel.
+L'équipe à été chapeautée par __Guillaume Terrasson__, Enseignant-chercheur à l'ESTIA, qui à joué le rôle de client et de tuteur, et [__Patrick Guennec__](https://www.linkedin.com/in/patrick-guennec-1724a343), intervenant Extérieur qui à coaché l'équipe sur l'aspect organisationnel.
 
 ## Contexte
 
