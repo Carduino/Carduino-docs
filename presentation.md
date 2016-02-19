@@ -26,12 +26,12 @@ C’est donc dans un contexte **Santé**/**Iot**/**Data-viz** que s’inscrit ce
 ## Objectifs du projet
 
 Ce projet a pour but l'étude et la réalisation d'un démonstrateur composé :
-* De mini-cardiofréquencemètres autonomes en énergie et portables dont les données seront transmises à un concentrateur local via une liaison sans fil.
+* De **mini-cardiofréquencemètres autonomes** en énergie et portables dont les données seront transmises à un concentrateur local via une liaison sans fil.
 
-* De concentrateurs locaux (hubs) permettant de récupérer localement les données transmises par les mini-cardiofréquencemètres.
+* De **concentrateurs locaux** (hubs) permettant de récupérer localement les données transmises par les mini-cardiofréquencemètres.
 
-* D'un serveur permettant de centraliser et de traiter l'ensemble des données collectées pour d'offrir aux utilisateurs finaux la possibilité de les visualiser.
+* D'un **serveur** permettant de centraliser et de traiter l'ensemble des données collectées pour d'offrir aux utilisateurs finaux la possibilité de les visualiser.
 
 Ce système Carduino se doit d'être conçu de manière à pouvoir être facilement **ré-utilisé et modifié**, dans le but de prendre part aux futures **activités pédagogiques** (TP, cours) et de **recherche** (capteurs autonomes, énergie, collecte de données).
 
-Ces aspects d'ouverture et d'utilisation future du projet impliquent qu'en plus de fournir un démonstrateur fonctionnel, une documentation complète doit créée et maintenue à jour, et que l'ensemble du système doit se baser sur du matériel et des logiciels open-source.
+Ces aspects d'ouverture et d'utilisation future du projet impliquent qu'en plus de fournir un démonstrateur fonctionnel, une documentation complète doit être créée et maintenue à jour, et que l'ensemble du système doit se baser sur du matériel et des logiciels **open-source**.
