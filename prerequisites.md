@@ -1,6 +1,8 @@
 # Prérequis
 
->Cette section détaille l'ensemble des technologies/librairies utilisées. Chaque composant utilisé par Carduino est open-source et bien documenté. Nous ne détaillerons donc pas le fonctionnement de chacun de ces composant dans la suite de la documentation. 
+Cette section détaille l'ensemble des technologies/librairies utilisées. Chaque composant utilisé par Carduino est open-source et bien documenté.
+
+>Vu le grand nombre de dépendances que compte le projet, nous ne détaillerons pas le fonctionnement de chacune dans la suite de la documentation.
 
 
 ## Système d'exploitation
