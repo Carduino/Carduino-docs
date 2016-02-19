@@ -15,6 +15,9 @@ Il est possible, sans portage particulier, de lancer le serveur sur la plus part
 Concernant les concentrateurs, Il est possible d'utiliser différentes distributions de Linux, mais la partie concernant l'acquisition des données (les communications via le GPIO du Raspberry Pi) devra certainement être adaptée.
 
 À l'heure actuel, Raspbian se base sur la dernière version de Debian (version 8 / Debian Jessie). Les OS de tous le système carduino font donc preuve d'une certaine unité qui facilite le travail.
+> [Documentation de Debian](https://www.debian.org/doc/)
+
+> [Documentation de Raspbian](https://www.raspbian.org/RaspbianDocumentation)
 
 
 ## terminal SSH
@@ -31,6 +34,8 @@ Connexion SSH vers un serveur :
 ```
 Déconnexion : **`Ctrl + d`**
 
+> [Documentation SSH Debian](https://wiki.debian.org/fr/SSH)
+
 
 ##Javascript ES6
 
@@ -42,13 +47,17 @@ La partie Client du système fait également un usage intensif de Javascript, on
 
 Certaines fonctionnalités récemment ajoutés à Javascript grâce à la nouvelle norme ES6 seront utilisées dans le projet. ES6 étant encorre à l'état de brouillon, et indeiponnible dans certains environnements d'exécution, nous utiliseront des pré-processeurs ([Babel](https://babeljs.io) par exemple) pour "compiler" notre code ES6 en ES5 classique si besoin.
 
+> [Documentation ECMAScript 2015 6th Edition](http://www.ecma-international.org/ecma-262/6.0/)
 
-## Node.JS
+
+## NodeJS
 
 <img class="logo" src='images/nodejs-logo.png' alt='Logo Javascript' />
 
 Le back-end Javascript sera exécuté dans un environnement NodeJS, une plateforme d'execution Javascript populaire est basé sur le très performant moteur Javascript V8 de chez Google.
 La gestion des dépendances des apps node seront gérées par le gestionnaire de paquets npm (node package manager).
+
+> [Documentation NodeJS](https://nodejs.org/api/)
 
 
 ## MongoDB
@@ -68,6 +77,8 @@ Adaptée a de grandes quantitées de données.
 L'accès à cette base de donnée au sein du serveur sera fait via l'ODM Mongoose, permettant d'établir des modèles et de structurer les données.
 Pour un accès direct à la base de donnée, il est recommandé d'utiliser des clients comme MongoChef, MongoHub ou RoboMongo.
 
+> [Documentation MongoDB](https://docs.mongodb.org/manual/)
+
 
 ## Mongoose
 
@@ -75,14 +86,18 @@ Pour un accès direct à la base de donnée, il est recommandé d'utiliser des c
 
 Mongoose est ce qu'on appelle un ODM (Object Documment Mapper) pour MongoDB. C'est en quelques sortes l'équivalent d'un ORM mais pour bases de données orientées documents.
 
+> [Documentation Mongoose](http://mongoosejs.com/docs/api.html)
 
-## Express.js - Connect.js
+
+## Express
 
 <img class="logo" src='images/express-logo.png' alt='Logo Express' />
 
-Express.js, basé sur connect, est le framework de base utilisé par le serveur Carduino.
+Express, basé sur connect.js, est le framework de base utilisé par le serveur Carduino.
 Il permet de gérer les communications, les routes (urls / API RESTFull) du serveur, l'authentification, etc.
 Il fonctionne grâce à un enchainnement de middlewares.
+
+> [Documentation Express](http://expressjs.com/en/api.html)
 
 
 ## Feathers.js
@@ -92,12 +107,16 @@ Il fonctionne grâce à un enchainnement de middlewares.
 Feathers.js est une couche d'abstraction au dessus d'express, qui permet la mise en place de services avec un accès commun via une API REST ainsi qu'une API temps-réel (dans notre cas via socket.io).
 Notre api n'est donc déclarée qu'une fois dans le code source, et permet par exemple de réaliser des opérations BDD et de s'authentifier grace a des méchanismes commun, puis de répondre au client via le bon canal de communication automatiquement.
 
+> [Documentation Feathers.js](http://docs.feathersjs.com)
+
 
 ## Socket.IO - Websockets
 
 <img class="logo" src='images/socketio-logo.png' alt='Logo SocketIO' />
 
 En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle réactive (système de Push) via websockets. Socket.IO est la librairie permettant de gérer les websockets, d'établir des rooms, et de gérer les connexions/reconnexion.
+
+> [Documentation Socket.IO](http://socket.io/docs/)
 
 
 ## Jade - HTML5
@@ -106,12 +125,16 @@ En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle
 
 L'interface web se base sur du HTML5. Il sera généré côté serveur grace au pré-processeur/Moteur de template JADE, dont la syntaxe épurée se base sur l'indentation (syntaxe type HAML).
 
+> [Documentation Jade](http://jade-lang.com/reference/)
+
 
 ## Stylus - CSS3
 
 <img class="logo" src='images/stylus-logo.png' alt='Logo Stylus' />
 
 La mise en forme de l'interface web se base sur CSS3. Il sera généré coté serveur  grace au pré-processeur Stylus, dont la syntaxe épurée se base sur l'indentation (syntaxe type SASS/SCSS améliorée).
+
+> [Documentation Stylus](http://stylus-lang.com)
 
 
 ## Git
@@ -120,6 +143,8 @@ La mise en forme de l'interface web se base sur CSS3. Il sera généré coté se
 
 blablabla
 
+> [Documentation Git](https://git-scm.com/documentation)
+
 
 ## GitHub
 
@@ -127,9 +152,13 @@ blablabla
 
 blablabla
 
+> [Documentation GitHub](https://help.github.com)
+
 
 ## GitBook
 
 <img class="logo" src='images/gitbook-logo.png' alt='Logo Git' />
+
+> [Documentation GitBook](https://help.gitbook.com)
 
 blablabla
