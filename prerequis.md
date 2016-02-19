@@ -29,7 +29,7 @@ Il faut donc disposer d'un terminal permettant d'établir une connexion SSH sur 
 
 Connexion SSH vers un serveur :
 ```bash
-	ssh -p 'port du serveur' 'utilisateur'@'IP ou ndd'
+ssh -p 'port du serveur' 'utilisateur'@'IP ou ndd'
 ```
 Déconnexion : `Ctrl`+`d`
 
