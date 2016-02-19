@@ -141,7 +141,7 @@ La mise en forme de l'interface web se base sur CSS3. Il sera généré coté se
 
 <img class="logo" src='images/git-logo.png' alt='Logo Git' />
 
-blablabla
+Git est un logiciel de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvalds, auteur du noyau Linux.
 
 > [Documentation Git](https://git-scm.com/documentation)
 
@@ -150,7 +150,9 @@ blablabla
 
 <img class="logo" src='images/github-logo.png' alt='Logo Git' />
 
-blablabla
+GitHub est un service web d'hébergement et de gestion de développement de logiciels, utilisant le logiciel de gestion de versions Git.
+
+GitHub est centré vers l'aspect social du développement. En plus d'offrir l'hébergement de projets avec Git, le site offre de nombreuses fonctionnalités habituellement retrouvées sur les réseaux sociaux comme les flux, la possibilité de suivre des personnes ou des projets ainsi que des graphes de réseaux pour les dépôts
 
 > [Documentation GitHub](https://help.github.com)
 
@@ -159,6 +161,6 @@ blablabla
 
 <img class="logo" src='images/gitbook-logo.png' alt='Logo Git' />
 
-> [Documentation GitBook](https://help.gitbook.com)
+GitBook est un outil en Node.js permettant de générer des eBooks et des livres web interactifs via Git et du Markdown. La documentation que vous lisez actuellement est réalisée grâce à GitBook.
 
-blablabla
+> [Documentation GitBook](https://help.gitbook.com)
