@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Présentation du projet](presentation.md)
-* [Prérequis/Glossaire](prerequis.md)
+* [Prérequis/Glossaire](prerequisites.md)
 * [Architecture du système Carduino](architecture/readme.md)
     * [Architecture globale](architecture/global.md)
     * [Architecture du serveur](architecture/server.md)
@@ -28,6 +28,8 @@
     * API REST
     * API Websocket
 * API Carduino-hub
+* [Carduino-docs](carduino-docs.md)
+* [Carduino-reference](carduino-reference.md)
 * [Bibliographie](bibliography.md)
 * [Liens utiles](links.md)
 
