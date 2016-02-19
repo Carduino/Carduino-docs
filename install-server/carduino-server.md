@@ -80,7 +80,7 @@ $ git remote add production ssh://root@[ip_ou_ndd]/var/repo/neo-creators.git
 ```
 
 
-#### 5. Déployer Carduino-serveur
+#### 4. Déployer Carduino-serveur
 ```bash
 $ git push production master
 ```
