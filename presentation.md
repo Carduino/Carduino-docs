@@ -13,12 +13,14 @@ L'équipe à été chapeautée par __Guillaume Terrasson__, Enseignant-chercheur
 
 ## Contexte
 
-Depuis de nombreuses années, le marché des __objets connectés__ ([IoT](https://fr.wikipedia.org/wiki/Internet_des_objets)) ne cesse de croître. L'application de ce type d'objets au __domaine de la santé__ laisse notamment espérer l'amélioration des conditions de vie des personnes à risque en leur permettant de rester à leur domicile tout en bénéficiant d'une surveillance de leurs constantes vitales à distance. Néanmoins, l'application de ces objets communicants à la mesure de signes vitaux nécessite :
+Depuis de nombreuses années, le marché des __objets connectés__ ([IoT](https://fr.wikipedia.org/wiki/Internet_des_objets)) ne cesse de croître. Les applications de ce type d'objets au __domaine de la santé__ laissent notamment espérer l'amélioration des conditions de vie des personnes à risque en leur permettant de rester à leur domicile tout en bénéficiant d'une surveillance de leurs constantes vitales à distance. Néanmoins, ce type application de  mesure des signes vitaux nécessite :
 * Le développement de __dispositifs miniaturisés, autonomes et fiables__ pouvant être portés temporairement ou de façon permanente sans gêner l'individu.
 
-* Une __architecture réseau__ permettant de collecter des données en __temps réel__ via une liaison sans fil et de les visualiser sur une interface tout en étant offrant un accès sécurisé.
+* Une __architecture réseau__ permettant de collecter des données en __temps réel__ via une liaison sans fil.
 
-C’est donc dans un contexte **Iot**/**Santé**/**Data-viz** que s’inscrit ce projet. De plus, Carduino doit d'être conçu de manière à pouvoir être facilement **ré-utilisé et modifié**, dans le but de prendre part à de futures **activités pédagogiques** (TP, cours) et de **recherche** (capteurs autonomes, énergie, collecte de données).
+* Un moyen sécurisé de visualiser les données ainsi acquises.
+
+C’est donc dans un contexte **Santé**/**Iot**/**Data-viz** que s’inscrit ce projet.
 
 
 ## Objectifs du projet
@@ -30,4 +32,6 @@ Ce projet a pour but l'étude et la réalisation d'un démonstrateur composé :
 
 * D'un serveur permettant de centraliser et de traiter l'ensemble des données collectées pour d'offrir aux utilisateurs finaux la possibilité de les visualiser.
 
-En plus de fournir un démonstrateur fonctionnel, les aspects d'ouverture et d'utilisation future du projet implique qu'une documentation complète soit maintenue à jour, ainsi que l'emploi de matériels/logiciels open-source.
+Ce système Carduino se doit d'être conçu de manière à pouvoir être facilement **ré-utilisé et modifié**, dans le but de prendre part aux futures **activités pédagogiques** (TP, cours) et de **recherche** (capteurs autonomes, énergie, collecte de données).
+
+Ces aspects d'ouverture et d'utilisation future du projet impliquent qu'en plus de fournir un démonstrateur fonctionnel, une documentation complète doit créée et maintenue à jour, et que l'ensemble du système doit se baser sur du matériel et des logiciels open-source.
