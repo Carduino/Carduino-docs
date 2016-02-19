@@ -55,9 +55,15 @@ Certaines fonctionnalités récemment ajoutés à Javascript grâce à la nouvel
 <img class="logo" src='images/nodejs-logo.png' alt='Logo Javascript' />
 
 Le back-end Javascript sera exécuté dans un environnement NodeJS, une plateforme d'execution Javascript populaire est basé sur le très performant moteur Javascript V8 de chez Google.
-La gestion des dépendances des apps node seront gérées par le gestionnaire de paquets npm (node package manager).
 
 > [Documentation NodeJS](https://nodejs.org/api/)
+
+
+## npm
+
+<img class="logo" src='images/npm-logo.png' alt='Logo npm' />
+
+npm (abréviation de Node Package Manager) est le gestionnaire de paquets officiel pour Node.js. Il est automatiquement installé avec NodeJS. npm fonctionne avec un terminal et gère les dépendances pour une application. Il permet également d'installer des applications Node.js disponibles sur le dépôt npm.
 
 
 ## MongoDB
@@ -110,7 +116,7 @@ Notre api n'est donc déclarée qu'une fois dans le code source, et permet par e
 > [Documentation Feathers.js](http://docs.feathersjs.com)
 
 
-## Socket.IO - Websockets
+## Socket.IO
 
 <img class="logo" src='images/socketio-logo.png' alt='Logo SocketIO' />
 
@@ -119,7 +125,7 @@ En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle
 > [Documentation Socket.IO](http://socket.io/docs/)
 
 
-## Jade - HTML5
+## Jade
 
 <img class="logo" src='images/jade-logo.png' alt='Logo Jade' />
 
@@ -128,7 +134,7 @@ L'interface web se base sur du HTML5. Il sera généré côté serveur grace au 
 > [Documentation Jade](http://jade-lang.com/reference/)
 
 
-## Stylus - CSS3
+## Stylus
 
 <img class="logo" src='images/stylus-logo.png' alt='Logo Stylus' />
 
@@ -148,7 +154,7 @@ Git est un logiciel de gestion de versions décentralisé. C'est un logiciel lib
 
 ## GitHub
 
-<img class="logo" src='images/github-logo.png' alt='Logo Git' />
+<img class="logo" src='images/github-logo.png' alt='Logo GitHub' />
 
 GitHub est un service web d'hébergement et de gestion de développement de logiciels, utilisant le logiciel de gestion de versions Git.
 
@@ -159,7 +165,7 @@ GitHub est centré vers l'aspect social du développement. En plus d'offrir l'h�
 
 ## GitBook
 
-<img class="logo" src='images/gitbook-logo.png' alt='Logo Git' />
+<img class="logo" src='images/gitbook-logo.png' alt='Logo GitBook' />
 
 GitBook est un outil en Node.js permettant de générer des eBooks et des livres web interactifs via Git et du Markdown. La documentation que vous lisez actuellement est réalisée grâce à GitBook.
 
