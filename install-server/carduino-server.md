@@ -1,5 +1,5 @@
 # Carduino-server
->Le code source de Carduino-server est hébergé sur le dépot Github [Carduino-server](https://github.com/Carduino/Carduino-server) de l'organisation [Carduino](https://github.com/Carduino).
+> Le code source de Carduino-server est hébergé sur le dépot Github [Carduino-server](https://github.com/Carduino/Carduino-server) de l'organisation [Carduino](https://github.com/Carduino).
 
 ### La statégie de déploiement Carduino-server est la suivante :
 
@@ -12,9 +12,6 @@
 4. Faire un push à destination du dépôt distant. Lorsque le serveur recevra la le push, le hook post-receive sera déclenché, et déploiera la mise à jour dans le dossier d'exécution.
 
 > Les étapes 1 & 2 se déroulent donc sur le **serveur**, et les étapes 3 & 4 sur la **machine de développement**.
-
-
----
 
 
 ### Sur le serveur
@@ -62,9 +59,12 @@ $ chmod +x hooks/post-receive
 ```
 
 
+---
+
+
 ### Sur la machine de développement
 
-#### 3. Clonage du dépot Github et ajout du dépôt distant
+#### 3. Clonage du dépôt Github et ajout du dépôt distant
 
 * ##### Clonage du code source
 ```bash
@@ -80,7 +80,7 @@ $ git remote add production ssh://root@[ip_ou_ndd]/var/repo/neo-creators.git
 ```
 
 
-#### 5. Deployer Carduino-serveur
+#### 5. Déployer Carduino-serveur
 ```bash
 $ git push production master
 ```
