@@ -112,3 +112,24 @@ L'interface web se base sur du HTML5. Il sera généré côté serveur grace au 
 <img class="logo" src='images/stylus-logo.png' alt='Logo Stylus' />
 
 La mise en forme de l'interface web se base sur CSS3. Il sera généré coté serveur  grace au pré-processeur Stylus, dont la syntaxe épurée se base sur l'indentation (syntaxe type SASS/SCSS améliorée).
+
+
+## Git
+
+<img class="logo" src='images/git-logo.png' alt='Logo Git' />
+
+blablabla
+
+
+## GitHub
+
+<img class="logo" src='images/github-logo.png' alt='Logo Git' />
+
+blablabla
+
+
+## GitBook
+
+<img class="logo" src='images/gitbook-logo.png' alt='Logo Git' />
+
+blablabla
