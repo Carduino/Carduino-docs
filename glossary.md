@@ -5,7 +5,7 @@ Cette section détaille l'ensemble des technologies/librairies utilisées. Chaqu
 >Vu le grand nombre de dépendances que compte le projet, nous ne détaillerons pas le fonctionnement de chacune dans la suite de la documentation.
 
 
-## Système d'exploitation
+# Système d'exploitation
 
 <img class='logo' src='images/debian-logo.png' alt='Logo Debian' />
 
