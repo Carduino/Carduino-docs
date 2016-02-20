@@ -23,10 +23,10 @@ Ces informations se retrouveront dans chaque commit que vous ferez avec Git, qui
 
 * Définir le username de Git :
 ```bash
-$ git config --global user.name "Votre nom"
+$ git config --global user.name <Votre nom>
 ```
 
 * Définir l'email de Git :
 ```bash
-$ git config --global user.email sammy@example.com
+$ git config --global user.email <Votre email>
 ```
