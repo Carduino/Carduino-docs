@@ -21,3 +21,4 @@
 * [GitHub](https://github.com)
 * [GitBook](https://www.gitbook.com/)
 * [npm](https://www.npmjs.com)
+* [Stack Overflow](http://stackoverflow.com)
