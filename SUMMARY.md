@@ -1,7 +1,7 @@
 # Sommaire
 
-* [Introduction](README.md)
-* [Présentation du projet](presentation.md)
+* [Bienvenue](README.md)
+* [Introduction](introduction.md)
 * [Prérequis - Glossaire](glossary.md)
 * [Architecture du système Carduino](architecture/readme.md)
     * [Architecture globale](architecture/global.md)
