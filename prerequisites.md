@@ -7,7 +7,7 @@ Cette section détaille l'ensemble des technologies/librairies utilisées. Chaqu
 
 ## Système d'exploitation
 
-<img class=logo src='images/debian-logo.png' alt='Logo Debian' />
+<img class='logo' src='images/debian-logo.png' alt='Logo Debian' />
 
 L'ensemble du système informatique à été développé pour une utilisation optimale sur des systèmes Linux (Debian pour le serveur et Raspian pour les concentrateurs).
 
@@ -23,7 +23,7 @@ Concernant les concentrateurs, Il est possible d'utiliser différentes distribut
 
 ## terminal SSH
 
-<img class=logo src='images/ssh-logo.png' alt='Logo Iterm' />
+<img class='logo' src='images/ssh-logo.png' alt='Logo Iterm' />
 
 L'installation/configuration/lancement de tout le système se fait quasi-systématiquement via SSH.
 
@@ -40,7 +40,7 @@ Déconnexion : `Ctrl`+`d`
 
 ##Javascript ES6
 
-<img class=logo src='images/javascript-logo.png' alt='Logo Javascript' />
+<img class='logo' src='images/javascript-logo.png' alt='Logo Javascript' />
 
 Javascript est le langage principal du système. Sa compréhension est indispensable pour comprendre/modifier le système Carduino. Il à l'avantage de ne pas nécessiter de compilation, d'être cross-platform, facile à apprendre, multi-paradigme, de plus en plus populaire, de disposer nativement de fonctionnalités réseau avancées, de fédérer une grande communauté de programmeurs, et d'être un des langages de script les plus rapides.
 
@@ -53,7 +53,7 @@ Certaines fonctionnalités récemment ajoutés à Javascript grâce à la nouvel
 
 ## NodeJS
 
-<img class=logo src='images/nodejs-logo.png' alt='Logo Javascript' />
+<img class='logo' src='images/nodejs-logo.png' alt='Logo Javascript' />
 
 Le back-end Javascript sera exécuté dans un environnement NodeJS, une plateforme d'exécution Javascript populaire est basé sur le très performant moteur Javascript V8 de chez Google.
 
@@ -62,7 +62,7 @@ Le back-end Javascript sera exécuté dans un environnement NodeJS, une platefor
 
 ## npm
 
-<img class=logo src='images/npm-logo.png' alt='Logo npm' />
+<img class='logo' src='images/npm-logo.png' alt='Logo npm' />
 
 npm (abréviation de Node Package Manager) est le gestionnaire de paquets officiel pour Node.js.
 
@@ -75,7 +75,7 @@ npm, c'est plus de 150 millions de packages téléchargés chaque jour.
 
 ## MongoDB
 
-<img class=logo src='images/mongodb-logo.png' alt='Logo MongoDB' />
+<img class='logo' src='images/mongodb-logo.png' alt='Logo MongoDB' />
 
 L'ensemble des données amassées par le réseau de capteur est stocké sur une base de donnée No-SQL MongoDB.
 Cette base de donnée est :
@@ -198,13 +198,8 @@ Markdown est un langage de balisage léger créé par John Gruber en 2004. Son b
 
 <img class='logo' src='images/arduino-logo.png' alt='Logo Arduino' />
 
-Blablabla
+Les Arduinos sont des cartes matériellement libres sur lesquelles se trouve un microcontrôleur (d'architecture Atmel AVR comme par exemple l'Atmega328p). Les schémas de ces cartes sont publiés en licence libre.
 
-> [Documentation Arduino]()
+Le langage de programmation utilisé est le C++, compilé avec avr-g++ 5, et lié à la bibliothèque de développement Arduino, permettant l'utilisation de la carte et de ses entrées/sorties. La mise en place de ce langage standard rend aisé le développement de programmes sur les plates-formes Arduino, à toute personne maîtrisant le C ou le C++.
 
-
-## Xbee/Zigbee
-
-Blablabla
-
-> [Documentation Xbee/Zigbee]()
+> [Documentation Arduino](https://www.arduino.cc/en/Reference/HomePage)
