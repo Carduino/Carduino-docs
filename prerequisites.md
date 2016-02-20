@@ -7,7 +7,7 @@ Cette section détaille l'ensemble des technologies/librairies utilisées. Chaqu
 
 ## Système d'exploitation
 
-<img class="logo" src='images/debian-logo.png' alt='Logo Debian' />
+<img class=logo src='images/debian-logo.png' alt='Logo Debian' />
 
 L'ensemble du système informatique à été développé pour une utilisation optimale sur des systèmes Linux (Debian pour le serveur et Raspian pour les concentrateurs).
 
@@ -23,7 +23,7 @@ Concernant les concentrateurs, Il est possible d'utiliser différentes distribut
 
 ## terminal SSH
 
-<img class="logo" src='images/ssh-logo.png' alt='Logo Iterm' />
+<img class=logo src='images/ssh-logo.png' alt='Logo Iterm' />
 
 L'installation/configuration/lancement de tout le système se fait quasi-systématiquement via SSH.
 
@@ -40,7 +40,7 @@ Déconnexion : `Ctrl`+`d`
 
 ##Javascript ES6
 
-<img class="logo" src='images/javascript-logo.png' alt='Logo Javascript' />
+<img class=logo src='images/javascript-logo.png' alt='Logo Javascript' />
 
 Javascript est le langage principal du système. Sa compréhension est indispensable pour comprendre/modifier le système Carduino. Il à l'avantage de ne pas nécessiter de compilation, d'être cross-platform, facile à apprendre, multi-paradigme, de plus en plus populaire, de disposer nativement de fonctionnalités réseau avancées, de fédérer une grande communauté de programmeurs, et d'être un des langages de script les plus rapides.
 
@@ -53,7 +53,7 @@ Certaines fonctionnalités récemment ajoutés à Javascript grâce à la nouvel
 
 ## NodeJS
 
-<img class="logo" src='images/nodejs-logo.png' alt='Logo Javascript' />
+<img class=logo src='images/nodejs-logo.png' alt='Logo Javascript' />
 
 Le back-end Javascript sera exécuté dans un environnement NodeJS, une plateforme d'exécution Javascript populaire est basé sur le très performant moteur Javascript V8 de chez Google.
 
@@ -62,7 +62,7 @@ Le back-end Javascript sera exécuté dans un environnement NodeJS, une platefor
 
 ## npm
 
-<img class="logo" src='images/npm-logo.png' alt='Logo npm' />
+<img class=logo src='images/npm-logo.png' alt='Logo npm' />
 
 npm (abréviation de Node Package Manager) est le gestionnaire de paquets officiel pour Node.js.
 
@@ -75,7 +75,7 @@ npm, c'est plus de 150 millions de packages téléchargés chaque jour.
 
 ## MongoDB
 
-<img class="logo" src='images/mongodb-logo.png' alt='Logo MongoDB' />
+<img class=logo src='images/mongodb-logo.png' alt='Logo MongoDB' />
 
 L'ensemble des données amassées par le réseau de capteur est stocké sur une base de donnée No-SQL MongoDB.
 Cette base de donnée est :
@@ -95,7 +95,7 @@ Pour un accès direct à la base de donnée, il est recommandé d'utiliser des c
 
 ## Mongoose
 
-<img class="logo" src='images/mongoose-logo.png' alt='Logo Mongoose' />
+<img class='logo' src='images/mongoose-logo.png' alt='Logo Mongoose' />
 
 Mongoose est ce qu'on appelle un ODM (Object Documment Mapper) pour MongoDB. C'est en quelques sortes l'équivalent d'un ORM mais pour bases de données orientées documents.
 
@@ -104,7 +104,7 @@ Mongoose est ce qu'on appelle un ODM (Object Documment Mapper) pour MongoDB. C'e
 
 ## Express
 
-<img class="logo" src='images/express-logo.png' alt='Logo Express' />
+<img class='logo' src='images/express-logo.png' alt='Logo Express' />
 
 Express, basé sur Connect.js, est le framework de base utilisé par le serveur Carduino.
 Il permet de gérer les communications, les routes (urls / API RESTFull) du serveur, l'authentification, etc.
@@ -115,7 +115,7 @@ Il fonctionne grâce à un enchaînement de middlewares.
 
 ## Feathers.js
 
-<img class="logo" src='images/feathers-logo.png' alt='Logo Feathers' />
+<img class='logo' src='images/feathers-logo.png' alt='Logo Feathers' />
 
 Feathers.js est une couche d'abstraction au dessus d'express, qui permet la mise en place de services avec un accès commun via une API REST ainsi qu'une API temps-réel (dans notre cas via socket.io).
 Notre api n'est donc déclarée qu'une fois dans le code source, et permet par exemple de réaliser des opérations BDD et de s'authentifier grâce a des mécanismes commun, puis de répondre au client via le bon canal de communication automatiquement.
@@ -125,7 +125,7 @@ Notre api n'est donc déclarée qu'une fois dans le code source, et permet par e
 
 ## Socket.IO
 
-<img class="logo" src='images/socketio-logo.png' alt='Logo SocketIO' />
+<img class='logo' src='images/socketio-logo.png' alt='Logo SocketIO' />
 
 En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle réactive (système de Push) via websocket. Socket.IO est la librairie permettant de gérer les websockets, d'établir des rooms, et de gérer les connexions/reconnexion.
 
@@ -134,7 +134,7 @@ En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle
 
 ## Jade
 
-<img class="logo" src='images/jade-logo.png' alt='Logo Jade' />
+<img class='logo' src='images/jade-logo.png' alt='Logo Jade' />
 
 L'interface web se base sur du HTML5. Il sera généré côté serveur grâce au pré-processeur/Moteur de template JADE, dont la syntaxe épurée se base sur l'indentation (syntaxe type HAML).
 
@@ -143,7 +143,7 @@ L'interface web se base sur du HTML5. Il sera généré côté serveur grâce au
 
 ## Stylus
 
-<img class="logo" src='images/stylus-logo.png' alt='Logo Stylus' />
+<img class='logo' src='images/stylus-logo.png' alt='Logo Stylus' />
 
 La mise en forme de l'interface web se base sur CSS3. Il sera généré coté serveur  grâce au pré-processeur Stylus, dont la syntaxe épurée se base sur l'indentation (syntaxe type SASS/SCSS améliorée).
 
@@ -152,7 +152,7 @@ La mise en forme de l'interface web se base sur CSS3. Il sera généré coté se
 
 ## Git
 
-<img class="logo" src='images/git-logo.png' alt='Logo Git' />
+<img class='logo' src='images/git-logo.png' alt='Logo Git' />
 
 Git est un logiciel de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvalds, auteur du noyau Linux.
 
@@ -161,7 +161,7 @@ Git est un logiciel de gestion de versions décentralisé. C'est un logiciel lib
 
 ## GitHub
 
-<img class="logo" src='images/github-logo.png' alt='Logo GitHub' />
+<img class='logo' src='images/github-logo.png' alt='Logo GitHub' />
 
 GitHub est un service web d'hébergement et de gestion de développement de logiciels, utilisant le logiciel de gestion de versions Git.
 
@@ -172,7 +172,7 @@ GitHub est centré vers l'aspect social du développement. En plus d'offrir l'h�
 
 ## GitBook
 
-<img class="logo" src='images/gitbook-logo.png' alt='Logo GitBook' />
+<img class='logo' src='images/gitbook-logo.png' alt='Logo GitBook' />
 
 GitBook est un outil en Node.js permettant de générer des eBooks et des livres web interactifs via Git et du Markdown. La documentation que vous lisez actuellement est réalisée grâce à GitBook.
 
@@ -187,7 +187,7 @@ Forever est un outil en ligne de commande permettant d'exécuter une application
 
 ## Markdown
 
-<img class="logo" src='images/markdown-logo.png' alt='Logo Markdown' />
+<img class='logo' src='images/markdown-logo.png' alt='Logo Markdown' />
 
 Markdown est un langage de balisage léger créé par John Gruber en 2004. Son but est d'offrir une syntaxe facile à lire et à écrire. Un document formaté selon Markdown devrait pouvoir être publié comme tel, en texte, sans donner l’impression qu’il a été marqué par des balises ou des instructions de formatage.
 
@@ -196,7 +196,7 @@ Markdown est un langage de balisage léger créé par John Gruber en 2004. Son b
 
 ## Arduino
 
-<img class="logo" src='images/arduino-logo.png' alt='Logo Arduino' />
+<img class='logo' src='images/arduino-logo.png' alt='Logo Arduino' />
 
 Blablabla
 
