@@ -112,13 +112,13 @@ Markdown est un langage de balisage léger créé par John Gruber en 2004. Son b
 
 L'ensemble des données amassées par le réseau de capteur est stocké sur une base de donnée No-SQL MongoDB.
 Cette base de donnée est :
-Orientée documents
-Rapide
-Manipule des Objets JSON/BSON
-Hautement scalable
-Souple d'utilisation
-Adaptée aux infrastructures complexes (Clouds, Shards, Replica-sets, etc.)
-Adaptée a de grandes quantités de données.
+* Orientée documents
+* Rapide
+* Manipule des Objets JSON/BSON
+* Hautement scalable
+* Souple d'utilisation
+* Adaptée aux infrastructures complexes (Clouds, Shards, Replica-sets, etc.)
+* Adaptée a de grandes quantités de données.
 
 L'accès à cette base de donnée au sein du serveur sera fait via l'ODM Mongoose, permettant d'établir des modèles et de structurer les données.
 Pour un accès direct à la base de donnée, il est recommandé d'utiliser des clients comme MongoChef, MongoHub ou RoboMongo.
