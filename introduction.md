@@ -25,7 +25,7 @@ C’est donc dans un contexte **Santé**/**Iot**/**Data-viz** que s’inscrit le
 
 ## Objectifs du projet
 
-Ce projet a pour but l'étude et la réalisation d'un démonstrateur composé :
+Ce projet a pour but l'étude et la réalisation d'un démonstrateur appliqué au monitoring cardiaque composé :
 * De **mini-cardiofréquencemètres autonomes** en énergie et portables dont les données seront transmises à un concentrateur local via une liaison sans fil.
 
 * De **concentrateurs locaux** (hubs) permettant de récupérer localement les données transmises par les mini-cardiofréquencemètres.
