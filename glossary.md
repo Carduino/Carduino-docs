@@ -1,4 +1,4 @@
-# Prérequis - Glossaire
+# Prérequis - Glossaire 
 
 Cette section détaille l'ensemble des technologies/librairies utilisées. Chaque composant utilisé par Carduino est open-source et bien documenté.
 
