@@ -88,7 +88,7 @@ L'interface web se base sur du HTML5. Il sera généré côté serveur grâce au
 
 <img class='logo' src='images/javascript-logo.png' alt='Logo Javascript' />
 
-Javascript est le langage principal du système. Sa compréhension est indispensable pour comprendre/modifier le système Carduino. Il à l'avantage de ne pas nécessiter de compilation, d'être cross-platform, facile à apprendre, multi-paradigme, de plus en plus populaire, de disposer nativement de fonctionnalités réseau avancées, de fédérer une grande communauté de programmeurs, et d'être un des langages de script les plus rapides.
+Javascript est le langage principal du système. Sa compréhension est indispensable pour comprendre/modifier le système Carduino. Il a l'avantage de ne pas nécessiter de compilation, d'être cross-platform, facile à apprendre, multi-paradigme, de plus en plus populaire, de disposer nativement de fonctionnalités réseau avancées, de fédérer une grande communauté de programmeurs, et d'être un des langages de script les plus rapides.
 
 La partie Client du système fait également un usage intensif de Javascript, on peut donc parler de système full-stack Javascript.
 
