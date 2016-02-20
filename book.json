@@ -13,7 +13,6 @@
 
     },
     "structure": {
-        "readme": "introduction.md",
-        "glossary": "glossary.md"
+        "readme": "introduction.md"
     }
 }
