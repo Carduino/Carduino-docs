@@ -1,3 +1,3 @@
 # Bibliographie
 
-[Guide MongoDB pour la modélisation de données](MongoDB-data-models.pdf)
+[Guide MongoDB pour la modélisation de données](MongoDB-data-models-guide.pdf)
