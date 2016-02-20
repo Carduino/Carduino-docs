@@ -90,7 +90,7 @@ L'interface web se base sur du HTML5. Il sera généré côté serveur grâce au
 
 Javascript est le langage principal du système. Sa compréhension est indispensable pour comprendre/modifier le système Carduino. Il a l'avantage de ne pas nécessiter de compilation, d'être cross-platform, facile à apprendre, multi-paradigme, de plus en plus populaire, de disposer nativement de fonctionnalités réseau avancées, de fédérer une grande communauté de programmeurs, et d'être un des langages de script les plus rapides.
 
-La partie Client du système fait également un usage intensif de Javascript, on peut donc parler de système full-stack Javascript.
+Les parties client et serveur du système font un usage intensif de Javascript, on peut donc parler de système full-stack Javascript.
 
 Certaines fonctionnalités récemment ajoutés à Javascript grâce à la nouvelle norme ES6 seront utilisées dans le projet. ES6 étant encore à l'état de brouillon, et indisponible dans certains environnements d'exécution, nous utiliseront des pré-processeurs ([Babel](https://babeljs.io) par exemple) pour "compiler" notre code ES6 en ES5 classique si besoin.
 
