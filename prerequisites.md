@@ -39,6 +39,8 @@ Notre api n'est donc déclarée qu'une fois dans le code source, et permet par e
 
 ## Forever
 
+<img class='logo' src='images/forever-logo.png' alt='Logo Forever' />
+
 Forever est un outil en ligne de commande permettant d'exécuter une application node.js de façon continue. Il permet de ne pas avoir à lancer node monApp.js en permanence et surtout de pouvoir aisément gérer l'ensemble des applications node.js qui tournent sur un serveur.
 
 > [Documentation Forever](https://github.com/foreverjs/forever)
