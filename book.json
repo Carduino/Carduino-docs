@@ -8,5 +8,8 @@
     ],
     "pluginsConfig": {
 
+    },
+    "structure": {
+        "readme": "introduction.md"
     }
 }
