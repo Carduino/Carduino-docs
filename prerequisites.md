@@ -5,37 +5,81 @@ Cette section détaille l'ensemble des technologies/librairies utilisées. Chaqu
 >Vu le grand nombre de dépendances que compte le projet, nous ne détaillerons pas le fonctionnement de chacune dans la suite de la documentation.
 
 
-## Système d'exploitation
+## Arduino
 
-<img class='logo' src='images/debian-logo.png' alt='Logo Debian' />
+<img class='logo' src='images/arduino-logo.png' alt='Logo Arduino' />
 
-L'ensemble du système informatique à été développé pour une utilisation optimale sur des systèmes Linux (Debian pour le serveur et Raspian pour les concentrateurs).
+Les Arduinos sont des cartes matériellement libres sur lesquelles se trouve un microcontrôleur (d'architecture Atmel AVR comme par exemple l'Atmega328p). Les schémas de ces cartes sont publiés en licence libre.
 
-Néanmoins, il est possible, sans portage particulier, de lancer le serveur sur la plus part des système Linux (Debian, Ubuntu, Fedora, etc), ainsi que d'autres systèmes UNIX comme Mac-OSX ou FreeBSD. Il est théoriquement possible de lancer le serveur sur des plateformes Windows, mais certaines dépendances et parties de code spécifiques devront êtres portés.
+Le langage de programmation utilisé est le C++, compilé avec avr-g++ 5, et lié à la bibliothèque de développement Arduino, permettant l'utilisation de la carte et de ses entrées/sorties. La mise en place de ce langage standard rend aisé le développement de programmes sur les plates-formes Arduino, à toute personne maîtrisant le C ou le C++.
 
-Concernant les concentrateurs, Il est possible d'utiliser différentes distributions de Linux, mais la partie concernant l'acquisition des données (les communications via le GPIO du Raspberry Pi) devra certainement être adaptée.
-
-À l'heure actuel, Raspbian se base sur la dernière version de Debian (version 8 / Debian Jessie). Les OS de tous le système Carduino font donc preuve d'une certaine unité qui facilite le travail.
-> [Documentation de Debian](https://www.debian.org/doc/)
-
-> [Documentation de Raspbian](https://www.raspbian.org/RaspbianDocumentation)
+> [Documentation Arduino](https://www.arduino.cc/en/Reference/HomePage)
 
 
-## Terminal SSH
+## Express
 
-<img class='logo' src='images/ssh-logo.png' alt='Logo Iterm' />
+<img class='logo' src='images/express-logo.png' alt='Logo Express' />
 
-L'installation/configuration/lancement de tout le système se fait quasi-systématiquement via SSH.
+Express, basé sur Connect.js, est le framework de base utilisé par le serveur Carduino.
+Il permet de gérer les communications, les routes (urls / API RESTFull) du serveur, l'authentification, etc.
+Il fonctionne grâce à un enchaînement de middlewares.
 
-Il faut donc disposer d'un terminal permettant d'établir une connexion SSH sur la machine utilisée pour installer/configurer/lancer le système Cardiuno. C'est le cas de tous les Linux et de Mac-OSX. Pour Windows, il faudra passer par un logiciel comme `PuTTY`, ou d'une machine virtuelle Linux pour disposer d'un terminal performant.
+> [Documentation Express](http://expressjs.com/en/api.html)
 
-Connexion SSH vers un serveur :
-```bash
-ssh -p 'port du serveur' 'utilisateur'@'IP ou ndd'
-```
-Déconnexion : `Ctrl`+`d`
 
-> [Documentation SSH Debian](https://wiki.debian.org/fr/SSH)
+## Feathers.js
+
+<img class='logo' src='images/feathers-logo.png' alt='Logo Feathers' />
+
+Feathers.js est une couche d'abstraction au dessus d'express, qui permet la mise en place de services avec un accès commun via une API REST ainsi qu'une API temps-réel (dans notre cas via socket.io).
+Notre api n'est donc déclarée qu'une fois dans le code source, et permet par exemple de réaliser des opérations BDD et de s'authentifier grâce a des mécanismes commun, puis de répondre au client via le bon canal de communication automatiquement.
+
+> [Documentation Feathers.js](http://docs.feathersjs.com)
+
+
+## Forever
+
+Forever est un outil en ligne de commande permettant d'exécuter une application node.js de façon continue. Il permet de ne pas avoir à lancer node monApp.js en permanence et surtout de pouvoir aisément gérer l'ensemble des applications node.js qui tournent sur un serveur.
+
+> [Documentation Forever](https://github.com/foreverjs/forever)
+
+
+## Git
+
+<img class='logo' src='images/git-logo.png' alt='Logo Git' />
+
+Git est un logiciel de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvalds, auteur du noyau Linux.
+
+> [Documentation Git](https://git-scm.com/documentation)
+
+
+## GitBook
+
+<img class='logo' src='images/gitbook-logo.png' alt='Logo GitBook' />
+
+GitBook est un outil en Node.js permettant de générer des eBooks et des livres web interactifs via Git et du Markdown. La documentation que vous lisez actuellement est réalisée grâce à GitBook.
+
+> [Documentation GitBook](https://help.gitbook.com)
+
+
+## GitHub
+
+<img class='logo' src='images/github-logo.png' alt='Logo GitHub' />
+
+GitHub est un service web d'hébergement et de gestion de développement de logiciels, utilisant le logiciel de gestion de versions Git.
+
+GitHub est centré vers l'aspect social du développement. En plus d'offrir l'hébergement de projets avec Git, le site offre de nombreuses fonctionnalités habituellement retrouvées sur les réseaux sociaux comme les flux, la possibilité de suivre des personnes ou des projets ainsi que des graphes de réseaux pour les dépôts
+
+> [Documentation GitHub](https://help.github.com)
+
+
+## Jade
+
+<img class='logo' src='images/jade-logo.png' alt='Logo Jade' />
+
+L'interface web se base sur du HTML5. Il sera généré côté serveur grâce au pré-processeur/Moteur de template JADE, dont la syntaxe épurée se base sur l'indentation (syntaxe type HAML).
+
+> [Documentation Jade](http://jade-lang.com/reference/)
 
 
 ## Javascript ES6
@@ -51,26 +95,13 @@ Certaines fonctionnalités récemment ajoutés à Javascript grâce à la nouvel
 > [Documentation ECMAScript 2015 6th Edition](http://www.ecma-international.org/ecma-262/6.0/)
 
 
-## NodeJS
+## Markdown
 
-<img class='logo' src='images/nodejs-logo.png' alt='Logo Javascript' />
+<img class='logo' src='images/markdown-logo.png' alt='Logo Markdown' />
 
-Le back-end Javascript sera exécuté dans un environnement NodeJS, une plateforme d'exécution Javascript populaire est basé sur le très performant moteur Javascript V8 de chez Google.
+Markdown est un langage de balisage léger créé par John Gruber en 2004. Son but est d'offrir une syntaxe facile à lire et à écrire. Un document formaté selon Markdown devrait pouvoir être publié comme tel, en texte, sans donner l’impression qu’il a été marqué par des balises ou des instructions de formatage.
 
-> [Documentation NodeJS](https://nodejs.org/api/)
-
-
-## npm
-
-<img class='logo' src='images/npm-logo.png' alt='Logo npm' />
-
-npm (abréviation de Node Package Manager) est le gestionnaire de paquets officiel pour Node.js.
-
-Il est automatiquement installé avec NodeJS. npm fonctionne avec un terminal et gère les dépendances pour une application. Il permet également d'installer des applications Node.js disponibles sur le dépôt npm.
-
-npm, c'est plus de 150 millions de packages téléchargés chaque jour.
-
-> [Documentation npm](https://docs.npmjs.com)
+> [Documentation Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
 ## MongoDB
@@ -102,25 +133,36 @@ Mongoose est ce qu'on appelle un ODM (Object Documment Mapper) pour MongoDB. C'e
 > [Documentation Mongoose](http://mongoosejs.com/docs/api.html)
 
 
-## Express
 
-<img class='logo' src='images/express-logo.png' alt='Logo Express' />
+## NodeJS
 
-Express, basé sur Connect.js, est le framework de base utilisé par le serveur Carduino.
-Il permet de gérer les communications, les routes (urls / API RESTFull) du serveur, l'authentification, etc.
-Il fonctionne grâce à un enchaînement de middlewares.
+<img class='logo' src='images/nodejs-logo.png' alt='Logo Javascript' />
 
-> [Documentation Express](http://expressjs.com/en/api.html)
+Le back-end Javascript sera exécuté dans un environnement NodeJS, une plateforme d'exécution Javascript populaire est basé sur le très performant moteur Javascript V8 de chez Google.
+
+> [Documentation NodeJS](https://nodejs.org/api/)
 
 
-## Feathers.js
+## npm
 
-<img class='logo' src='images/feathers-logo.png' alt='Logo Feathers' />
+<img class='logo' src='images/npm-logo.png' alt='Logo npm' />
 
-Feathers.js est une couche d'abstraction au dessus d'express, qui permet la mise en place de services avec un accès commun via une API REST ainsi qu'une API temps-réel (dans notre cas via socket.io).
-Notre api n'est donc déclarée qu'une fois dans le code source, et permet par exemple de réaliser des opérations BDD et de s'authentifier grâce a des mécanismes commun, puis de répondre au client via le bon canal de communication automatiquement.
+npm (abréviation de Node Package Manager) est le gestionnaire de paquets officiel pour Node.js.
 
-> [Documentation Feathers.js](http://docs.feathersjs.com)
+Il est automatiquement installé avec NodeJS. npm fonctionne avec un terminal et gère les dépendances pour une application. Il permet également d'installer des applications Node.js disponibles sur le dépôt npm.
+
+npm, c'est plus de 150 millions de packages téléchargés chaque jour.
+
+> [Documentation npm](https://docs.npmjs.com)
+
+
+## PassportJS
+
+<img class='logo' src='images/passport-logo.png' alt='Logo PassportJS'/>
+
+Passport un middleware l'authentification pour Node.js. Extrêmement flexible et modulaire, Passeport peut être simplement déposé dans toute application basée sur le framework Express. Un ensemble complet de stratégies supportent l'authentification en utilisant un couple Login/mot de passe, des token, Facebook, Twitter, et plus encore.
+
+> [Documentation PassportJS](http://passportjs.org/docs)
 
 
 ## Socket.IO
@@ -132,15 +174,6 @@ En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle
 > [Documentation Socket.IO](http://socket.io/docs/)
 
 
-## Jade
-
-<img class='logo' src='images/jade-logo.png' alt='Logo Jade' />
-
-L'interface web se base sur du HTML5. Il sera généré côté serveur grâce au pré-processeur/Moteur de template JADE, dont la syntaxe épurée se base sur l'indentation (syntaxe type HAML).
-
-> [Documentation Jade](http://jade-lang.com/reference/)
-
-
 ## Stylus
 
 <img class='logo' src='images/stylus-logo.png' alt='Logo Stylus' />
@@ -150,65 +183,34 @@ La mise en forme de l'interface web se base sur CSS3. Il sera généré coté se
 > [Documentation Stylus](http://stylus-lang.com)
 
 
-## Git
+## Système d'exploitation
 
-<img class='logo' src='images/git-logo.png' alt='Logo Git' />
+<img class='logo' src='images/debian-logo.png' alt='Logo Debian' />
 
-Git est un logiciel de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvalds, auteur du noyau Linux.
+L'ensemble du système informatique à été développé pour une utilisation optimale sur des systèmes Linux (Debian pour le serveur et Raspian pour les concentrateurs).
 
-> [Documentation Git](https://git-scm.com/documentation)
+Néanmoins, il est possible, sans portage particulier, de lancer le serveur sur la plus part des système Linux (Debian, Ubuntu, Fedora, etc), ainsi que d'autres systèmes UNIX comme Mac-OSX ou FreeBSD. Il est théoriquement possible de lancer le serveur sur des plateformes Windows, mais certaines dépendances et parties de code spécifiques devront êtres portés.
 
+Concernant les concentrateurs, Il est possible d'utiliser différentes distributions de Linux, mais la partie concernant l'acquisition des données (les communications via le GPIO du Raspberry Pi) devra certainement être adaptée.
 
-## GitHub
+À l'heure actuel, Raspbian se base sur la dernière version de Debian (version 8 / Debian Jessie). Les OS de tous le système Carduino font donc preuve d'une certaine unité qui facilite le travail.
+> [Documentation de Debian](https://www.debian.org/doc/)
 
-<img class='logo' src='images/github-logo.png' alt='Logo GitHub' />
-
-GitHub est un service web d'hébergement et de gestion de développement de logiciels, utilisant le logiciel de gestion de versions Git.
-
-GitHub est centré vers l'aspect social du développement. En plus d'offrir l'hébergement de projets avec Git, le site offre de nombreuses fonctionnalités habituellement retrouvées sur les réseaux sociaux comme les flux, la possibilité de suivre des personnes ou des projets ainsi que des graphes de réseaux pour les dépôts
-
-> [Documentation GitHub](https://help.github.com)
+> [Documentation de Raspbian](https://www.raspbian.org/RaspbianDocumentation)
 
 
-## GitBook
+## Terminal SSH
 
-<img class='logo' src='images/gitbook-logo.png' alt='Logo GitBook' />
+<img class='logo' src='images/ssh-logo.png' alt='Logo Iterm' />
 
-GitBook est un outil en Node.js permettant de générer des eBooks et des livres web interactifs via Git et du Markdown. La documentation que vous lisez actuellement est réalisée grâce à GitBook.
+L'installation/configuration/lancement de tout le système se fait quasi-systématiquement via SSH.
 
-> [Documentation GitBook](https://help.gitbook.com)
+Il faut donc disposer d'un terminal permettant d'établir une connexion SSH sur la machine utilisée pour installer/configurer/lancer le système Cardiuno. C'est le cas de tous les Linux et de Mac-OSX. Pour Windows, il faudra passer par un logiciel comme `PuTTY`, ou d'une machine virtuelle Linux pour disposer d'un terminal performant.
 
+Connexion SSH vers un serveur :
+```bash
+ssh -p 'port du serveur' 'utilisateur'@'IP ou ndd'
+```
+Déconnexion : `Ctrl`+`d`
 
-## Forever
-
-Forever est un outil en ligne de commande permettant d'exécuter une application node.js de façon continue. Il permet de ne pas avoir à lancer node monApp.js en permanence et surtout de pouvoir aisément gérer l'ensemble des applications node.js qui tournent sur un serveur.
-
-> [Documentation Forever](https://github.com/foreverjs/forever)
-
-## Markdown
-
-<img class='logo' src='images/markdown-logo.png' alt='Logo Markdown' />
-
-Markdown est un langage de balisage léger créé par John Gruber en 2004. Son but est d'offrir une syntaxe facile à lire et à écrire. Un document formaté selon Markdown devrait pouvoir être publié comme tel, en texte, sans donner l’impression qu’il a été marqué par des balises ou des instructions de formatage.
-
-> [Documentation Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-
-## Arduino
-
-<img class='logo' src='images/arduino-logo.png' alt='Logo Arduino' />
-
-Les Arduinos sont des cartes matériellement libres sur lesquelles se trouve un microcontrôleur (d'architecture Atmel AVR comme par exemple l'Atmega328p). Les schémas de ces cartes sont publiés en licence libre.
-
-Le langage de programmation utilisé est le C++, compilé avec avr-g++ 5, et lié à la bibliothèque de développement Arduino, permettant l'utilisation de la carte et de ses entrées/sorties. La mise en place de ce langage standard rend aisé le développement de programmes sur les plates-formes Arduino, à toute personne maîtrisant le C ou le C++.
-
-> [Documentation Arduino](https://www.arduino.cc/en/Reference/HomePage)
-
-
-## PassportJS
-
-<img class='logo' src='images/passport-logo.png' alt='Logo PassportJS'/>
-
-Passport un middleware l'authentification pour Node.js. Extrêmement flexible et modulaire, Passeport peut être simplement déposé dans toute application basée sur le framework Express. Un ensemble complet de stratégies supportent l'authentification en utilisant un couple Login/mot de passe, des token, Facebook, Twitter, et plus encore.
-
-> [Documentation PassportJS](http://passportjs.org/docs)
+> [Documentation SSH Debian](https://wiki.debian.org/fr/SSH)
