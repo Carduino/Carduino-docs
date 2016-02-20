@@ -203,3 +203,12 @@ Les Arduinos sont des cartes matériellement libres sur lesquelles se trouve un 
 Le langage de programmation utilisé est le C++, compilé avec avr-g++ 5, et lié à la bibliothèque de développement Arduino, permettant l'utilisation de la carte et de ses entrées/sorties. La mise en place de ce langage standard rend aisé le développement de programmes sur les plates-formes Arduino, à toute personne maîtrisant le C ou le C++.
 
 > [Documentation Arduino](https://www.arduino.cc/en/Reference/HomePage)
+
+
+## PassportJS
+
+<img class='logo' src='images/passport-logo.png' alt='Logo PassportJS'/>
+
+Passport un middleware l'authentification pour Node.js. Extrêmement flexible et modulaire, Passeport peut être simplement déposé dans toute application basée sur le framework Express. Un ensemble complet de stratégies supportent l'authentification en utilisant un couple Login/mot de passe, des token, Facebook, Twitter, et plus encore.
+
+> [Documentation PassportJS](http://passportjs.org/docs)
