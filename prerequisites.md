@@ -121,7 +121,7 @@ Cette base de donnée est :
 * Adaptée à de grandes quantités de données (Big-Data).
 
 L'accès à cette base de données au sein du serveur sera fait via l'ODM Mongoose, permettant d'établir des modèles et de structurer les données.
-Pour un accès direct à la base de donnée, il est recommandé d'utiliser des clients comme MongoChef, MongoHub ou RoboMongo.
+Pour l'accès distant à la base de donnée et son l'administration, il est recommandé d'utiliser des clients comme MongoChef, MongoHub ou RoboMongo.
 
 > [Documentation MongoDB](https://docs.mongodb.org/manual/)
 
@@ -130,7 +130,9 @@ Pour un accès direct à la base de donnée, il est recommandé d'utiliser des c
 
 <img class='logo' src='images/mongoose-logo.png' alt='Logo Mongoose' />
 
-Mongoose est ce qu'on appelle un ODM (Object Documment Mapper) pour MongoDB. C'est en quelques sortes l'équivalent d'un ORM mais pour bases de données orientées documents.
+Mongoose est ce qu'on appelle un ODM (Object Documment Mapper) pour MongoDB. C'est en quelque sorte l'équivalent d'un ORM mais pour bases de données orientées documents.
+
+Il permet donc, grâce à des schémas, de structurer les données .
 
 > [Documentation Mongoose](http://mongoosejs.com/docs/api.html)
 
