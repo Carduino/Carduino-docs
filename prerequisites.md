@@ -32,7 +32,7 @@ Il fonctionne grâce à un enchaînement de middlewares.
 <img class='logo' src='images/feathers-logo.png' alt='Logo Feathers' />
 
 Feathers.js est une couche d'abstraction au dessus d'express, qui permet la mise en place de services avec un accès commun via une API REST ainsi qu'une API temps-réel (dans notre cas via socket.io).
-Notre api n'est donc déclarée qu'une fois dans le code source, et permet par exemple de réaliser des opérations BDD et de s'authentifier grâce à des mécanismes communs, puis de répondre au client via le bon canal de communication automatiquement.
+Notre api n'est donc déclarée qu'une fois dans le code source, et permet par exemple de réaliser des opérations CRUD sur la BDD et de s'authentifier grâce à des mécanismes communs, puis de répondre au client via le bon canal de communication automatiquement.
 
 > [Documentation Feathers.js](http://docs.feathersjs.com)
 
