@@ -1,5 +1,6 @@
 {
-    "title": "My Awesome Book",
+    "title": "Carduino-docs",
+    "description": "Documentation Générale du Projet Carduino",
     "styles": {
         "website": "styles/website.css"
     },
