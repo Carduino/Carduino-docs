@@ -1,7 +1,7 @@
 # Sommaire
 
 * [Introduction](introduction.md)
-* [Le projet](carduino.md)
+* [Le projet](project.md)
 * [Prérequis Glossaire](coucou.md)
 * [Architecture du système Carduino](architecture/readme.md)
     * [Architecture globale](architecture/global.md)
