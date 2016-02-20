@@ -196,6 +196,8 @@ Markdown est un langage de balisage léger créé par John Gruber en 2004. Son b
 
 ## Arduino
 
+<img class="logo" src='images/arduino-logo.png' alt='Logo Arduino' />
+
 Blablabla
 
 > [Documentation Arduino]()
