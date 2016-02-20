@@ -21,7 +21,7 @@ Concernant les concentrateurs, Il est possible d'utiliser différentes distribut
 > [Documentation de Raspbian](https://www.raspbian.org/RaspbianDocumentation)
 
 
-## terminal SSH
+# Terminal SSH
 
 <img class='logo' src='images/ssh-logo.png' alt='Logo Iterm' />
 
@@ -38,7 +38,7 @@ Déconnexion : `Ctrl`+`d`
 > [Documentation SSH Debian](https://wiki.debian.org/fr/SSH)
 
 
-##Javascript ES6
+# Javascript ES6
 
 <img class='logo' src='images/javascript-logo.png' alt='Logo Javascript' />
 
@@ -51,7 +51,7 @@ Certaines fonctionnalités récemment ajoutés à Javascript grâce à la nouvel
 > [Documentation ECMAScript 2015 6th Edition](http://www.ecma-international.org/ecma-262/6.0/)
 
 
-## NodeJS
+# NodeJS
 
 <img class='logo' src='images/nodejs-logo.png' alt='Logo Javascript' />
 
@@ -60,7 +60,7 @@ Le back-end Javascript sera exécuté dans un environnement NodeJS, une platefor
 > [Documentation NodeJS](https://nodejs.org/api/)
 
 
-## npm
+# npm
 
 <img class='logo' src='images/npm-logo.png' alt='Logo npm' />
 
@@ -73,7 +73,7 @@ npm, c'est plus de 150 millions de packages téléchargés chaque jour.
 > [Documentation npm](https://docs.npmjs.com)
 
 
-## MongoDB
+# MongoDB
 
 <img class='logo' src='images/mongodb-logo.png' alt='Logo MongoDB' />
 
@@ -93,7 +93,7 @@ Pour un accès direct à la base de donnée, il est recommandé d'utiliser des c
 > [Documentation MongoDB](https://docs.mongodb.org/manual/)
 
 
-## Mongoose
+# Mongoose
 
 <img class='logo' src='images/mongoose-logo.png' alt='Logo Mongoose' />
 
@@ -102,7 +102,7 @@ Mongoose est ce qu'on appelle un ODM (Object Documment Mapper) pour MongoDB. C'e
 > [Documentation Mongoose](http://mongoosejs.com/docs/api.html)
 
 
-## Express
+# Express
 
 <img class='logo' src='images/express-logo.png' alt='Logo Express' />
 
@@ -113,7 +113,7 @@ Il fonctionne grâce à un enchaînement de middlewares.
 > [Documentation Express](http://expressjs.com/en/api.html)
 
 
-## Feathers.js
+# Feathers.js
 
 <img class='logo' src='images/feathers-logo.png' alt='Logo Feathers' />
 
@@ -123,7 +123,7 @@ Notre api n'est donc déclarée qu'une fois dans le code source, et permet par e
 > [Documentation Feathers.js](http://docs.feathersjs.com)
 
 
-## Socket.IO
+# Socket.IO
 
 <img class='logo' src='images/socketio-logo.png' alt='Logo SocketIO' />
 
@@ -132,7 +132,7 @@ En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle
 > [Documentation Socket.IO](http://socket.io/docs/)
 
 
-## Jade
+# Jade
 
 <img class='logo' src='images/jade-logo.png' alt='Logo Jade' />
 
@@ -141,7 +141,7 @@ L'interface web se base sur du HTML5. Il sera généré côté serveur grâce au
 > [Documentation Jade](http://jade-lang.com/reference/)
 
 
-## Stylus
+# Stylus
 
 <img class='logo' src='images/stylus-logo.png' alt='Logo Stylus' />
 
@@ -150,7 +150,7 @@ La mise en forme de l'interface web se base sur CSS3. Il sera généré coté se
 > [Documentation Stylus](http://stylus-lang.com)
 
 
-## Git
+# Git
 
 <img class='logo' src='images/git-logo.png' alt='Logo Git' />
 
@@ -159,7 +159,7 @@ Git est un logiciel de gestion de versions décentralisé. C'est un logiciel lib
 > [Documentation Git](https://git-scm.com/documentation)
 
 
-## GitHub
+# GitHub
 
 <img class='logo' src='images/github-logo.png' alt='Logo GitHub' />
 
@@ -170,7 +170,7 @@ GitHub est centré vers l'aspect social du développement. En plus d'offrir l'h�
 > [Documentation GitHub](https://help.github.com)
 
 
-## GitBook
+# GitBook
 
 <img class='logo' src='images/gitbook-logo.png' alt='Logo GitBook' />
 
@@ -179,13 +179,13 @@ GitBook est un outil en Node.js permettant de générer des eBooks et des livres
 > [Documentation GitBook](https://help.gitbook.com)
 
 
-## Forever
+# Forever
 
 Forever est un outil en ligne de commande permettant d'exécuter une application node.js de façon continue. Il permet de ne pas avoir à lancer node monApp.js en permanence et surtout de pouvoir aisément gérer l'ensemble des applications node.js qui tournent sur un serveur.
 
 > [Documentation Forever](https://github.com/foreverjs/forever)
 
-## Markdown
+# Markdown
 
 <img class='logo' src='images/markdown-logo.png' alt='Logo Markdown' />
 
@@ -194,7 +194,7 @@ Markdown est un langage de balisage léger créé par John Gruber en 2004. Son b
 > [Documentation Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
-## Arduino
+# Arduino
 
 <img class='logo' src='images/arduino-logo.png' alt='Logo Arduino' />
 
@@ -205,7 +205,7 @@ Le langage de programmation utilisé est le C++, compilé avec avr-g++ 5, et li�
 > [Documentation Arduino](https://www.arduino.cc/en/Reference/HomePage)
 
 
-## PassportJS
+# PassportJS
 
 <img class='logo' src='images/passport-logo.png' alt='Logo PassportJS'/>
 
