@@ -12,3 +12,5 @@ Cette documentation va vous dire tout ce dont vous avez besoin pour mettre en pl
 - [PDF](https://www.gitbook.com/download/pdf/book/carduino/carduino-docs)
 - [ePub](https://www.gitbook.com/download/epub/book/carduino/carduino-docs)
 - [Mobi](https://www.gitbook.com/download/mobi/book/carduino/carduino-docs)
+
+> Les codes-sources de tout le projet (y compris cette documentation) sont hébergés sur le [GitHub Carduino](https://github.com/Carduino).
