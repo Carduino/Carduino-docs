@@ -1,4 +1,4 @@
-# Présentation du projet
+# Introduction
 
 ## Contributeurs
 
@@ -11,7 +11,7 @@ Le système Carduino à entièrement été développé dans le cadre des Projets
 L'équipe à été chapeautée par __Guillaume Terrasson__, Enseignant-chercheur à l'ESTIA, qui à joué le rôle de client et de tuteur, et par [__Patrick Guennec__](https://www.linkedin.com/in/patrick-guennec-1724a343), intervenant extérieur, qui à coaché l'équipe sur l'aspect organisationnel.
 
 
-## Contexte
+## Contexte du projet
 
 Depuis de nombreuses années, le marché des __objets connectés__ ([IoT](https://fr.wikipedia.org/wiki/Internet_des_objets)) ne cesse de croître. Les applications de ce type d'objets au __domaine de la santé__ laissent notamment espérer l'amélioration des conditions de vie des personnes à risque en leur permettant de rester à leur domicile tout en bénéficiant d'une surveillance de leurs constantes vitales à distance. Néanmoins, ce type application de  mesure des signes vitaux nécessite :
 * Le développement de __dispositifs d'acquisition miniaturisés, autonomes et fiables__ pouvant être portés temporairement ou de façon permanente sans gêner l'individu.
