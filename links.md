@@ -14,3 +14,10 @@
 ### Liens externes
 
 * Site officiel de l'ESTIA : [www.estia.fr](http://www.estia.fr)
+
+
+### Ressources 
+
+* [GitHub](https://github.com)
+* [GitBook](https://www.gitbook.com/)
+* [npm](https://www.npmjs.com)
