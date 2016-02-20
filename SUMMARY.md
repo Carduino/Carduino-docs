@@ -2,7 +2,7 @@
 
 * [Introduction](introduction.md)
 * [Le projet](project.md)
-* [Prérequis Glossaire](prerequisites.md)
+* [Prérequis - Glossaire](prerequisites.md)
 * [Architecture du système Carduino](architecture/readme.md)
     * [Architecture globale](architecture/global.md)
     * [Architecture du serveur](architecture/server.md)
