@@ -1,6 +1,7 @@
 {
     "title": "Carduino-docs",
     "description": "Documentation Générale du Projet Carduino",
+    "language": "fr",
     "styles": {
         "website": "styles/website.css"
     },
@@ -12,6 +13,7 @@
 
     },
     "structure": {
-        "readme": "introduction.md"
+        "readme": "introduction.md",
+        "glossary": "glossary.md"
     }
 }
