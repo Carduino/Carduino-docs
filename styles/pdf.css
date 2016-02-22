@@ -1,1 +1,46 @@
 /* CSS for pdf */
+img{
+    display: block;
+    margin: auto;
+}
+img.logo{
+    max-height: 100px;
+}
+p{
+    text-align: justify;
+}
+
+.book .book-summary ul.summary li a:hover,
+.book .book-summary ul.summary li.active>a,
+.book .book-body .page-wrapper .page-inner section.normal a {
+  color: #e05264;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a.anchorjs-link {
+  color: #333333;
+}
+
+/* Sidebar Title */
+.book .book-summary ul.summary li a.custom-link {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal blockquote,
+.book .book-body .page-wrapper .page-inner section.normal dl,
+.book .book-body .page-wrapper .page-inner section.normal ol,
+.book .book-body .page-wrapper .page-inner section.normal p,
+.book .book-body .page-wrapper .page-inner section.normal table,
+.book .book-body .page-wrapper .page-inner section.normal ul {
+  font-size: 1.8rem;
+  color: #555;
+}
+
+/* Page Titles */
+.book .book-body .page-wrapper .page-inner section.normal h1 {
+  color: #e05264;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal h2 {
+  font-size: 1.65em;
+}
