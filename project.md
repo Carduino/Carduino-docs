@@ -28,7 +28,7 @@ C’est donc dans un contexte **Santé** / **Iot** / **Data-viz** que s’inscri
 Ce projet a pour but l'étude et la réalisation d'un démonstrateur appliqué au monitoring cardiaque composé :
 * De **mini-cardiofréquencemètres autonomes** en énergie et portables dont les données seront transmises à un concentrateur local via une liaison sans fil.
 
-* De **concentrateurs locaux** (hubs) permettant de récupérer localement les données transmises par les mini-cardiofréquencemètres.
+* De **concentrateurs locaux** (hubs) permettant de récupérer localement les mesures transmises par les mini-cardiofréquencemètres.
 
 * D'un **serveur** permettant de centraliser et de traiter l'ensemble des données collectées pour d'offrir aux utilisateurs finaux la possibilité de les visualiser.
 
