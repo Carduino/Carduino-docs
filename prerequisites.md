@@ -199,6 +199,11 @@ En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle
 > [Documentation Socket.IO](http://socket.io/docs/)
 
 
+## SSL/TLS
+
+Transport Layer Security (TLS), et son prédécesseur Secure Sockets Layer (SSL), sont des protocoles de sécurisation des échanges sur Internet. Ils permettent de passer de `http://` à `https://`, et pour les Websockets de `ws://` à `wss://`
+
+
 ## Stylus
 
 <img class='logo' src='images/stylus-logo.png' alt='Logo Stylus' />
