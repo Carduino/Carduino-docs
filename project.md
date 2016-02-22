@@ -20,7 +20,7 @@ Depuis de nombreuses années, le marché des __objets connectés__ ([IoT](https:
 
 * Un moyen sécurisé et ergonomique de visualiser les données ainsi acquises pour en extraire une valeur ajoutée.
 
-C’est donc dans un contexte **Santé**/**Iot**/**Data-viz** que s’inscrit le projet Carduino.
+C’est donc dans un contexte **Santé** / **Iot** / **Data-viz** que s’inscrit le projet Carduino.
 
 
 ## Objectifs
