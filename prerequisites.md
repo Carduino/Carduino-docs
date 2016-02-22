@@ -50,7 +50,7 @@ Forever est un outil en ligne de commande permettant d'exécuter une application
 
 <img class='logo' src='images/git-logo.png' alt='Logo Git' />
 
-Git est un logiciel de gestion de versions, décentralisé. C'est un logiciel libre créé par Linus Torvalds, auteur du noyau Linux.
+Git est un logiciel de gestion de versions très populaire, se basant sur un modèle décentralisé. C'est un logiciel libre créé par Linus Torvalds, auteur du noyau Linux.
 
 > [Documentation Git](https://git-scm.com/documentation)
 
@@ -176,7 +176,7 @@ npm, c'est plus de 150 millions de packages téléchargés chaque jour.
 
 <img class='logo' src='images/passport-logo.png' alt='Logo PassportJS'/>
 
-Passport un middleware l'authentification pour Node.js. Extrêmement flexible et modulaire, Passeport peut être simplement déposé dans toute application basée sur le framework Express. Un ensemble complet de stratégies supportent l'authentification par couple login/password, des tokens, Facebook, Twitter, et plus encore.
+Passport un middleware d'authentification pour Node.js. Extrêmement flexible et modulaire, Passeport peut être simplement déposé dans toute application basée sur le framework Express. Un ensemble complet de stratégies supportent l'authentification par couple login/password, des tokens, Facebook, Twitter, et plus encore.
 
 > [Documentation PassportJS](http://passportjs.org/docs)
 
@@ -245,6 +245,6 @@ Déconnexion : `Ctrl`+`d`
 
 <img class='logo' src='images/yeoman-logo.png' alt='Logo Iterm' />
 
-...
+Yeoman est un projet Open Source géré par l’équipe de développement de Chrome qui permet d'échafauder, et de gérer des applications web rapidement.C'est une sorte de générateur d'applications.
 
-> [Documentation Yeoman]()
+> [Documentation Yeoman](http://yeoman.io)
