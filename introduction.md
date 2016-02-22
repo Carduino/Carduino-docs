@@ -1,6 +1,6 @@
 <img class="logo" src='images/carduino-simple-logo.png' alt='Logo Debian' />
 
-# Carduino, Réseau de capteurs communicants
+# Carduino, réseau de capteurs communicants
 
 Carduino est le fruit d'un projet d'étudiants ingénieurs de l'[**ESTIA**](http://www.estia.fr) (École Supérieure des Technologies Industrielles Avancées). Il s'agit d'un **démonstrateur**, témoin du savoir-faire et des compétences des étudiants et enseignants de l'ESTIA en matière d'électronique, d'informatique, et de systèmes embarqués.
 
