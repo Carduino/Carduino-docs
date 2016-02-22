@@ -4,11 +4,11 @@
 
 * Application Carduino : [carduino.dauliac.fr](http://carduino.dauliac.fr)
 
-* APIs Carduino : [api.dauliac.fr](http://carduino.dauliac.fr)
+* APIs Carduino : [api.carduino.dauliac.fr](http://api.carduino.dauliac.fr)
 
-* Documentation du projet : [docs.carduino.dauliac.fr](http://carduino.dauliac.fr)
+* Documentation du projet : [docs.carduino.dauliac.fr](http://docs.carduino.dauliac.fr)
 
-* Référence des APIs : [reference.carduino.dauliac.fr](http://carduino.dauliac.fr)
+* Référence des APIs : [reference.carduino.dauliac.fr](http://reference.carduino.dauliac.fr)
 
 
 ### Externes
