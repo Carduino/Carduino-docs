@@ -141,7 +141,7 @@ Il permet donc, grâce à des schémas, de structurer les données .
 
 <img class='logo' src='images/nginx-logo.png' alt='Logo Javascript' />
 
-NGINX (prononcé *engine X*) est un Serveur web open-source. Il est utilisable en remplacement d'un serveur Apache, et dispose de nombreuses fonctionnalités. Il peut, en plus de servir des fichier statiques, être utilisé comme reverse proxy, interpréter des scripts php, re-router des requêtes vers une app sur un port local, servir de serveur de messagerie, streamer du contenu video, effectuer du load balancing, et plus encore.
+NGINX (prononcé *engine X*) est un Serveur web open-source. Il est utilisable en remplacement d'un serveur Apache, et dispose de nombreuses fonctionnalités. Il peut, en plus de servir des fichier statiques, être utilisé comme reverse proxy, interpréter des scripts PHP, re-router des requêtes vers une application sur un port local, servir de serveur de messagerie, streamer du contenu video, effectuer du load balancing, et plus encore.
 
 NGINX est un serveur asynchrone par opposition aux serveurs synchrones (comme Apache) où chaque requête est traitée par un processus dédié. Ce choix d'architecture se traduit par des performances très élevées, mais également par une charge et une consommation de mémoire particulièrement faibles
 
@@ -154,20 +154,20 @@ NGINX peut être installé sur des systèmes GNU/Linux, BSD, Mac OS X, Solaris, 
 
 <img class='logo' src='images/nodejs-logo.png' alt='Logo Javascript' />
 
-Le back-end Javascript sera exécuté dans un environnement NodeJS, une plateforme d'exécution Javascript populaire est basé sur le très performant moteur Javascript V8 de chez Google.
+Le back-end Javascript sera exécuté dans un environnement NodeJS, une plateforme d'exécution Javascript populaire est basée sur le très performant moteur Javascript V8 de chez Google.
 
 > [Documentation NodeJS](https://nodejs.org/api/)
 
 
-## npm
+## Npm
 
 <img class='logo' src='images/npm-logo.png' alt='Logo npm' />
 
-npm (abréviation de Node Package Manager) est le gestionnaire de paquets officiel pour Node.js.
+Npm (abréviation de Node Package Manager) est le gestionnaire de paquets officiel pour Node.js.
 
-Il est automatiquement installé avec NodeJS. npm fonctionne avec un terminal et gère les dépendances pour une application. Il permet également d'installer des applications Node.js disponibles sur le dépôt npm.
+Il est automatiquement installé avec NodeJS. Npm fonctionne avec un terminal et gère les dépendances pour une application. Il permet également d'installer des applications Node.js disponibles sur le dépôt npm.
 
-npm, c'est plus de 150 millions de packages téléchargés chaque jour.
+Npm, c'est plus de 150 millions de packages téléchargés chaque jour.
 
 > [Documentation npm](https://docs.npmjs.com)
 
@@ -176,7 +176,7 @@ npm, c'est plus de 150 millions de packages téléchargés chaque jour.
 
 <img class='logo' src='images/passport-logo.png' alt='Logo PassportJS'/>
 
-Passport un middleware d'authentification pour Node.js. Extrêmement flexible et modulaire, Passeport peut être simplement déposé dans toute application basée sur le framework Express. Un ensemble complet de stratégies supportent l'authentification par couple login/password, des tokens, Facebook, Twitter, et plus encore.
+PassportJS est un middleware d'authentification pour Node.js. Extrêmement flexible et modulaire, PasseportJS peut être simplement déposé dans toute application basée sur le framework Express. Un ensemble complet de stratégies supporte l'authentification par couple login/password, des tokens, Facebook, Twitter, et plus encore.
 
 > [Documentation PassportJS](http://passportjs.org/docs)
 
@@ -185,7 +185,7 @@ Passport un middleware d'authentification pour Node.js. Extrêmement flexible et
 
 <img class='logo' src='images/postman-logo.png' alt='Logo SocketIO' />
 
-Postman est un logiciel de test d'API. Il permet d'envoyer n'importe quelle requête HTTP et de créer des scénarios d'utilisation pour automatiser les test. Son utilisation remplace celle de curl, son équivalent en ligne de commande.
+Postman est un logiciel de test d'API. Il permet d'envoyer n'importe quelle requête HTTP et de créer des scénarios d'utilisation pour automatiser  séries de tests. Son utilisation remplace celle de curl, son équivalent en ligne de commande.
 
 > [Documentation Postman](https://www.getpostman.com/docs/)
 
@@ -194,7 +194,7 @@ Postman est un logiciel de test d'API. Il permet d'envoyer n'importe quelle requ
 
 <img class='logo' src='images/socketio-logo.png' alt='Logo SocketIO' />
 
-En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle réactive (système de Push) via websocket. Socket.IO est la librairie permettant de gérer les websockets, d'établir des rooms, et de gérer les connexions/reconnexion.
+En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle réactive (càd évènementielle) via websocket. Socket.IO est la librairie permettant de gérer les websockets, d'établir des rooms, et de gérer les connexions/reconnexions.
 
 > [Documentation Socket.IO](http://socket.io/docs/)
 
@@ -203,7 +203,7 @@ En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle
 
 <img class='logo' src='images/stylus-logo.png' alt='Logo Stylus' />
 
-La mise en forme de l'interface web se base sur CSS3. Il sera généré coté serveur  grâce au pré-processeur Stylus, dont la syntaxe épurée se base sur l'indentation (syntaxe type SASS/SCSS améliorée).
+La mise en forme de l'interface web se base sur CSS3. Il sera généré côté serveur grâce au pré-processeur Stylus, dont la syntaxe épurée se base sur l'indentation (syntaxe type SASS/SCSS améliorée).
 
 > [Documentation Stylus](http://stylus-lang.com)
 
@@ -212,13 +212,13 @@ La mise en forme de l'interface web se base sur CSS3. Il sera généré coté se
 
 <img class='logo' src='images/debian-logo.png' alt='Logo Debian' />
 
-L'ensemble du système informatique à été développé pour une utilisation optimale sur des systèmes Linux (Debian pour le serveur et Raspian pour les concentrateurs).
+L'ensemble du système informatique a été développé pour une utilisation optimale sur des systèmes Linux (Debian pour le serveur et Raspian pour les hubs).
 
-Néanmoins, il est possible, sans portage particulier, de lancer le serveur sur la plus part des système Linux (Debian, Ubuntu, Fedora, etc), ainsi que d'autres systèmes UNIX comme Mac-OSX ou FreeBSD. Il est théoriquement possible de lancer le serveur sur des plateformes Windows, mais certaines dépendances et parties de code spécifiques devront êtres portés.
+Néanmoins, il est possible, sans portage particulier, de lancer le serveur sur la pluspart des systèmes Linux (Debian, Ubuntu, Fedora, etc), ainsi que d'autres systèmes UNIX comme Mac-OSX ou FreeBSD. Il est théoriquement possible de lancer le serveur sur des plateformes Windows, mais certaines dépendances et parties de code spécifiques devront êtres portées.
 
 Concernant les concentrateurs, Il est possible d'utiliser différentes distributions de Linux, mais la partie concernant l'acquisition des données (les communications via le GPIO du Raspberry Pi) devra certainement être adaptée.
 
-À l'heure actuel, Raspbian se base sur la dernière version de Debian (version 8 / Debian Jessie). Les OS de tous le système Carduino font donc preuve d'une certaine unité qui facilite le travail.
+À l'heure actuelle, Raspbian se base sur la dernière version de Debian (version 8 / Debian Jessie). Les OS de tout le système Carduino font donc preuve d'une certaine unité qui facilite le travail.
 > [Documentation de Debian](https://www.debian.org/doc/)
 
 > [Documentation de Raspbian](https://www.raspbian.org/RaspbianDocumentation)
