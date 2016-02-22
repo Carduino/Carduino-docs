@@ -141,9 +141,13 @@ Il permet donc, grâce à des schémas, de structurer les données .
 
 <img class='logo' src='images/nginx-logo.png' alt='Logo Javascript' />
 
-...
+NGINX (prononcé *engine X*) est un Serveur web open-source. Il est utilisable en remplacement d'un serveur Apache, et dispose de nombreuses fonctionnalités. Il peut, en plus de servir des fichier statiques, être utilisé comme reverse proxy, interpréter des scripts php, re-router des requêtes vers une app sur un port local, servir de serveur de messagerie, streamer du contenu video, effectuer du load balancing, et plus encore.
 
-> [Documentation NGINX]()
+NGINX est un serveur asynchrone par opposition aux serveurs synchrones (comme Apache) où chaque requête est traitée par un processus dédié. Ce choix d'architecture se traduit par des performances très élevées, mais également par une charge et une consommation de mémoire particulièrement faibles
+
+NGINX peut être installé sur des systèmes GNU/Linux, BSD, Mac OS X, Solaris, et Windows.
+
+> [Documentation NGINX](http://nginx.org/en/docs/)
 
 
 ## NodeJS
