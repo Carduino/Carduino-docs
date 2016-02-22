@@ -269,6 +269,6 @@ Avec cette API vous pouvez envoyer des messages à un serveur et recevoir ses r�
 
 <img class='logo' src='images/yeoman-logo.png' alt='Logo Iterm' />
 
-Yeoman est un projet Open Source géré par l’équipe de développement de Chrome qui permet d'échafauder, et de gérer des applications web rapidement.C'est une sorte de générateur d'applications.
+Yeoman est un projet Open Source géré par l’équipe de développement de Chrome qui permet d'échafauder, et de gérer des applications web rapidement. C'est une sorte de générateur d'applications.
 
 > [Documentation Yeoman](http://yeoman.io)
