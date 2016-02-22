@@ -20,7 +20,7 @@
     ```
 
         * Sélectionner avec la barre d’espace : en_US.UTF-8 UTF-8
-	    * Choisir la locale par default : en_US.UTF-8
+	    * Choisir la locale par défaut : en_US.UTF-8
 <br />
 <br />
 	* Éditer le fichier de configuration des locales :
