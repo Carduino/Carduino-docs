@@ -254,6 +254,8 @@ Déconnexion : `Ctrl`+`d`
 
 <img class='logo' src='images/websocket-logo.png' alt='Logo Iterm' />
 
+![Illustration WebSockets](images/websocket-illustration.png)
+
 WebSocket est un standard du Web désignant un protocole réseau de la couche application et une interface de programmation du World Wide Web visant à créer des canaux de communication full-duplex par dessus une connexion TCP.
 
 Avec cette API vous pouvez envoyer des messages à un serveur et recevoir ses réponses de manière événementielle sans avoir à aller consulter le serveur pour obtenir une réponse.
