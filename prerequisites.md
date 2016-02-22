@@ -181,9 +181,9 @@ Passport un middleware l'authentification pour Node.js. Extrêmement flexible et
 
 <img class='logo' src='images/postman-logo.png' alt='Logo SocketIO' />
 
-...
+Postman est un logiciel de test d'API. Il permet d'envoyer n'importe quelle requête HTTP et de créer des scénarios d'utilisation pour automatiser les test. Son utilisation remplace celle de curl, son équivalent en ligne de commande.
 
-> [Documentation Postman]()
+> [Documentation Postman](https://www.getpostman.com/docs/)
 
 
 ## Socket.IO
