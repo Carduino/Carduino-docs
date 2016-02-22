@@ -9,7 +9,7 @@
 
 3. Cloner le dépôt GitHub hébergeant le code source en local, puis ajouter le dépôt Git du serveur en tant que dépôt distant.
 
-4. Faire un push à destination du dépôt distant. Lorsque le serveur recevra la le push, le hook post-receive sera déclenché, et déploiera la mise à jour dans le dossier d'exécution.
+4. Faire un push à destination du dépôt distant. Lorsque le serveur recevra le push, le hook post-receive sera déclenché, et déploiera la mise à jour dans le dossier d'exécution.
 
 > Les étapes 1 & 2 se déroulent donc sur le **serveur**, et les étapes 3 & 4 sur la **machine de développement**.
 
@@ -71,7 +71,7 @@ $ chmod +x hooks/post-receive
 $ cd chemin/vers/le/repertoire/parent/du/clone
 $ git clone https://github.com/Carduino/Carduino-server.git
 ```
->Le chemin vers le dossier qui contiendra la copie locale du code source peut être librement choisie.
+>Le chemin vers le dossier qui contiendra la copie locale du code source peut être librement choisi.
 
 * ##### Ajout du dépôt distant
 ```bash
