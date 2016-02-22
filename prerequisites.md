@@ -201,7 +201,11 @@ En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle
 
 ## SSL/TLS
 
+<img class='logo' src='images/ssl-logo.png' alt='Logo SSL' />
+
 Transport Layer Security (TLS), et son prédécesseur Secure Sockets Layer (SSL), sont des protocoles de sécurisation des échanges sur Internet. Ils permettent de passer de `http://` à `https://`, et pour les Websockets de `ws://` à `wss://`. Ces protocoles de sécurité nécessitent l'utilisation d'un certificat SSL (auto-signé ou non) pour fonctionner. Dans le cas d'un certificat auto-signé (càd gratuit), la pluspart des navigateurs refusent la connexion car elle n'est pas "trusted" par une entité de certification reconnue (Comodo, GeoTrust, RapidSSL, VeriSign, etc).
+
+> [Documentation SSL/TLS]()
 
 
 ## Stylus
