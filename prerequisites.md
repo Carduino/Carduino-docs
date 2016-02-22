@@ -172,7 +172,7 @@ npm, c'est plus de 150 millions de packages téléchargés chaque jour.
 
 <img class='logo' src='images/passport-logo.png' alt='Logo PassportJS'/>
 
-Passport un middleware l'authentification pour Node.js. Extrêmement flexible et modulaire, Passeport peut être simplement déposé dans toute application basée sur le framework Express. Un ensemble complet de stratégies supportent l'authentification en utilisant un couple Login/mot de passe, des token, Facebook, Twitter, et plus encore.
+Passport un middleware l'authentification pour Node.js. Extrêmement flexible et modulaire, Passeport peut être simplement déposé dans toute application basée sur le framework Express. Un ensemble complet de stratégies supportent l'authentification par couple login/password, des tokens, Facebook, Twitter, et plus encore.
 
 > [Documentation PassportJS](http://passportjs.org/docs)
 
