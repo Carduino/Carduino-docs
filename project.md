@@ -34,4 +34,4 @@ Ce projet a pour but l'étude et la réalisation d'un démonstrateur appliqué a
 
 Ce "système Carduino" se doit d'être conçu de manière à pouvoir être facilement **ré-utilisé et modifié**, dans le but de prendre part aux futures **activités pédagogiques** (TP, cours) et de **recherche** (capteurs autonomes, énergie, collecte de données) de l'ESTIA.
 
-Ces aspects d'ouverture et d'utilisation future du projet impliquent qu'en plus de fournir un démonstrateur fonctionnel, une documentation complète doit être créée et maintenue à jour, et que l'ensemble du système se base sur du matériel et des logiciels **open-source**.
+> Ces aspects d'ouverture et d'utilisation future du projet impliquent qu'en plus de fournir un démonstrateur fonctionnel, une documentation complète doit être créée et maintenue à jour, et que l'ensemble du système se base sur du matériel et des logiciels **open-source**.
