@@ -115,7 +115,7 @@ Contrairement au systèmes d’authentification par Cookie et session, les JWT o
 
 * Decouplage: Nous sommes indépendant du moyen d'authentification utilisé. Le JWT peu être généré n'importe où, et par n'importe quel moyen. Puis l'API est atteinte par un unique moyen, les JWT.
 
-* Mobile-ready: Lorsqu'on travail sur des plateformes natives (iOS, Android, Windows 8, etc.) les cookies ne sont pas idéaux pour accéder à une API sécurisée. Adopter une approche basée sur les cookies simplifie énormement cette problématique.
+* Mobile-ready: Lorsqu'on travaile sur des plateformes natives (iOS, Android, Windows 8, etc.) les cookies ne sont pas idéaux pour accéder à une API sécurisée. Adopter une approche basée sur les cookies simplifie énormement cette problématique.
 
 * CSRF: Comme nous n'utilisons plus les cookies comme moyen d'authentification, il n'y a plus besoin de se protéger contre les attaques de type CSRF.
 
