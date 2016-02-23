@@ -133,7 +133,7 @@ Contrairement au systèmes d’authentification par Cookies et sessions, ont les
 
 Il est également possible d’effectuer un rafraichissement des JWT, ainsi q’une révocation. Cependant, la révocation implique un accès a une source de données commune entre le serveur d’authentification et l’application, ce qui romp le bénéfice de fédération. On évide donc généralement d’implémenter une révocation de JWT sur les applications hautement scalables. Ceci diminue l’intérêt des JWT vis à vis des tokens obscurs.
 
-
+> [Documentation JWT](https://jwt.io)
 
 
 ## Markdown
