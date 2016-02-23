@@ -119,9 +119,7 @@ Contrairement au systèmes d’authentification par Cookie et session, les JWT o
 
 * CSRF: Comme nous n'utilisons plus les cookies comme moyen d'authentification, il n'y a plus besoin de se protéger contre les attaques CSRF, du tout.
 
-* Performance: Un aller-retour réseau (càd trouver une session en base de donnée) est plus lent que de calculer le HMACSHA256 pour valider la signature du token et parser son contenu.
-
-* Login page is not an special case: If you are using Protractor to write your functional tests, you don't need to handle any special case for login.
+* Performance: Un aller-retour réseau (càd trouver une session en base de donnée) est plus lent et bloquant que de calculer le `HMACSHA256` permettant de valider la signature du token et parser son contenu.
 
 * Standard: Les JWT sont un standard. Il y a de multiples librairies disponnibles (.NET, Ruby, Java, Python, PHP, NodeJS, Haskell, Erlang, Go), et de grosses compagnies qui basent leurs infrastructures dessus (Firebase, Google, Microsoft, Facebook, etc).
 
