@@ -117,7 +117,7 @@ Contrairement au systèmes d’authentification par Cookie et session, les JWT o
 
 * Mobile-ready: Lorsqu'on travaille sur des plateformes natives (iOS, Android, Windows 8, etc.) les cookies ne sont pas idéaux pour accéder à une API sécurisée (problèmes de cookie container). Adopter une approche basée sur les cookies simplifie énormement cette problématique.
 
-* CSRF: Comme nous n'utilisons plus les cookies comme moyen d'authentification, il n'y a plus besoin de se protéger contre les attaques de type CSRF.
+* CSRF: Comme nous n'utilisons plus les cookies comme moyen d'authentification, il n'y a plus besoin de se protéger contre les attaques CSRF, du tout.
 
 * Performance: Un aller-retour réseau (càd trouver une session en base de donnée) est plus lent que de calculer le HMACSHA256 pour valider la signature du token et parser son contenu.
 
