@@ -111,9 +111,9 @@ Contrairement au systèmes d’authentification par Cookie et session, les JWT o
 
 * Cross-domain / CORS: Les cookies et les requettes cross-domain (nécessaires pour une API publique) ne font pas bon ménage.Une approche basée sur les tokens quand à elle permet de faire des requettes AJAX sur n'importe quel serveur car le token est simplement embarqué dans un header HTTP (`Authorization : Bearer <JWT string>`).
 
-* Scalable: Il n'y a pas besoin d'un moyen de stokage des sessions puisqu'il n'y a pas de sessions. En effet le token contient déjà les informations utilisateur et rend les sessions inutiles. POur les navigateurs web, le token peut être maintenu en place dans un Cookie, dans le LocalStorage, ou le SessionStorage. Pour les autres clients, il peut être maintenu dans n'importe quelle forme de stockage privé ou en mémoire.
+* Scalable: Il n'y a pas besoin d'un moyen de stokage des sessions puisqu'il n'y a pas de session. En effet le token contient déjà les informations de l'utilisateur et rend les sessions inutiles. Pour les navigateurs web, le token peut être maintenu en place dans un Cookie, dans le LocalStorage, ou dans le SessionStorage. Pour les autres clients, il peut être maintenu dans n'importe quelle forme de stockage privé ou en mémoire.
 
-* Decouplage: Nous sommes indépendant du moyen d'authentification utilisé. Le JWT peu être généré n'importe où, et par n'importe quel moyen. Puis l'API peut être atteinte par un unique moyen, les JWT.
+* Decouplage: Nous sommes indépendant du moyen d'authentification utilisé. Le JWT peu être généré n'importe où, et par n'importe quel moyen. Puis l'API est atteinte par un unique moyen, les JWT.
 
 * Mobile-ready: Lorsqu'on travail sur des plateformes natives (iOS, Android, Windows 8, etc.) les cookies ne sont pas idéaux pour accéder à une API sécurisée. Adopter une approche basée sur les cookies simplifie énormement cette problématique.
 
