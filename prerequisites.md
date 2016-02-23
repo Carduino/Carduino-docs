@@ -101,6 +101,8 @@ Certaines fonctionnalités récemment ajoutées à Javascript grâce à la nouve
 
 <img class='logo' src='images/....png' alt='Logo JWT' />
 
+![Illustration JWT](images/jwt-illustration.png)
+
 JSON Web Token (JWT) est un standard (RFC 7519) basé sur JSON pour faire passer des créances entre les différentes parties d’un environnement d'applications Web. Les jetons (tokens) sont conçus pour être compacts, URL-safe, et utilisable en particulier contexte de connexion unique depuis un navigateur. Les JWT peuvent être généralement utilisés pour transmettre l'identité des utilisateurs authentifiés entre un fournisseur d’authentification et un fournisseur de services (application).
 
 Les JWT sont donc des tokens signés, en opposition des tokens obscurs. Il est alors possible d’éliminer tout lien entre l’authentification et l’application (ce qu’on appelle le bénéfice de fédération). Il est possible d’ajouter du contenu dans un JWT, mais il faut savoir qu’il pourra être décrypté par n’importe qui en possession du JWT. En revanche, il n’est pas possible de modifier les informations contenues dans le JWT sans rendre la signature erronée. Contrairement au systèmes d’authentification par Cookies et sessions, le système Stateless des JWT permet :
