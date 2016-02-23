@@ -109,7 +109,7 @@ Les JWT sont donc des tokens signés, en opposition des tokens obscurs. Il est a
 
 Contrairement au systèmes d’authentification par Cookie et session, les JWT ont les avantages suivants :
 
-* Cross-domain / CORS: Les cookies et les requettes cross-domain (nécessaires pour une API publique) ne font pas bon ménage.Une approche basée sur les tokens quand à elle permet de faire des requettes AJAX sur n'importe quel serveur car le token est simplement embarqué dna sun header HTTP.
+* Cross-domain / CORS: Les cookies et les requettes cross-domain (nécessaires pour une API publique) ne font pas bon ménage.Une approche basée sur les tokens quand à elle permet de faire des requettes AJAX sur n'importe quel serveur car le token est simplement embarqué dans un header HTTP (`Authorization : Bearer <JWT string>`).
 
 * Scalable: Il n'y a pas besoin d'un moyen de stokage des sessions puisqu'il n'y a pas de sessions. En effet le token contient déjà les informations utilisateur et rend les sessions inutiles. POur les navigateurs web, le token peut être maintenu en place dans un Cookie, dans le LocalStorage, ou le SessionStorage. Pour les autres clients, il peut être maintenu dans n'importe quelle forme de stockage privé ou en mémoire.
 
