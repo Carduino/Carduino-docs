@@ -99,7 +99,7 @@ Certaines fonctionnalités récemment ajoutées à Javascript grâce à la nouve
 
 # JSON Web Token
 
-<img class='logo' src='images/....png' alt='Logo JWT' />
+<img class='logo' src='images/jwt-logo.png' alt='Logo JWT' />
 
 
 
