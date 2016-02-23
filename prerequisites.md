@@ -101,14 +101,18 @@ Certaines fonctionnalités récemment ajoutées à Javascript grâce à la nouve
 
 <img class='logo' src='images/....png' alt='Logo JWT' />
 
-![Illustration JWT](images/jwt-illustration.png)
+
 
 JSON Web Token (JWT) est un standard (RFC 7519) basé sur JSON pour faire passer des créances entre les différentes parties d’un environnement d'applications Web. Les jetons (tokens) sont conçus pour être compacts, URL-safe, et utilisable en particulier contexte de connexion unique depuis un navigateur. Les JWT peuvent être généralement utilisés pour transmettre l'identité des utilisateurs authentifiés entre un fournisseur d’authentification et un fournisseur de services (application).
 
-Les JWT sont donc des tokens signés, en opposition des tokens obscurs. Il est alors possible d’éliminer tout lien entre l’authentification et l’application (ce qu’on appelle le bénéfice de fédération). Il est possible d’ajouter du contenu dans un JWT, mais il faut savoir qu’il pourra être décrypté par n’importe qui en possession du JWT. En revanche, il n’est pas possible de modifier les informations contenues dans le JWT sans rendre la signature erronée. Contrairement au systèmes d’authentification par Cookies et sessions, le système Stateless des JWT permet :
+Les JWT sont donc des tokens signés, en opposition des tokens obscurs. Il est alors possible d’éliminer tout lien entre l’authentification et l’application (ce qu’on appelle le bénéfice de fédération). Il est possible d’ajouter du contenu dans un JWT, mais il faut savoir qu’il pourra être décrypté par n’importe qui en possession du JWT. En revanche, il n’est pas possible de modifier les informations contenues dans le JWT sans rendre la signature erronée.
+
+![Illustration JWT](images/jwt-illustration.png)
+
+Contrairement au systèmes d’authentification par Cookies et sessions, ont les avantages suivantes :
 
 
-* Cross-domain / CORS: cookies + CORS don't play well across different domains. A token-based approach allows you to make AJAX calls to any server, on any domain because you use an HTTP header to transmit the user information.
+* Cross-domain / CORS: Les cookies et les requettes cross-domain (nécessaires pour une API publique) ne font pas bon ménage.Une approche basée sur les tokens quand à elle permet de faire des requettes AJAX sur n'importe quel serveur car le token est simplement embarqué dna sun header HTTP.
 
 * Stateless (a.k.a. Server side scalability): there is no need to keep a session store, the token is a self-contanined entity that conveys all the user information. The rest of the state lives in cookies or local storage on the client side.
 
@@ -118,7 +122,7 @@ Les JWT sont donc des tokens signés, en opposition des tokens obscurs. Il est a
 
 * Mobile ready: when you start working on a native platform (iOS, Android, Windows 8, etc.) cookies are not ideal when consuming a secure API (you have to deal with cookie containers). Adopting a token-based approach simplifies this a lot.
 
-* CSRF: since you are not relying on cookies, you don't need to protect against cross site requests (e.g. it would not be possible to <iframe>your site, generate a POST request and re-use the existing authentication cookie because there will be none).
+* CSRF: since you are not relying on cookies, you don't need to protect against cross site requests (e.g. it would not be possible to your site, generate a POST request and re-use the existing authentication cookie because there will be none).
 
 * Performance: we are not presenting any hard perf benchmarks here, but a network roundtrip (e.g. finding a session on database) is likely to take more time than calculating an HMACSHA256 to validate a token and parsing its contents.
 
