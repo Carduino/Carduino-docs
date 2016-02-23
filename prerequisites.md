@@ -124,8 +124,7 @@ Contrairement au systèmes d’authentification par Cookie et session, les JWT o
 * Standard: Les JWT sont un standard. Il y a de multiples librairies disponnibles (.NET, Ruby, Java, Python, PHP, NodeJS, Haskell, Erlang, Go), et de grosses compagnies qui basent leurs infrastructures dessus (Firebase, Google, Microsoft, Facebook, etc).
 
 
-Il est également possible d’effectuer un rafraichissement des JWT, ainsi q’une révocation. Cependant, la révocation implique un accès a une source de données commune entre le serveur d’authentification et l’application, ce qui romp le bénéfice de fédération. On évide donc généralement d’implémenter une révocation de JWT sur les applications hautement scalables. Ceci diminue l’intérêt des JWT vis à vis des tokens obscurs.
-
+Il est également possible d’effectuer un rafraichissement des JWT, ainsi qu’une révocation. Cependant, la révocation implique un accès à une source de données commune entre le serveur d’authentification et l’application, ce qui romp le bénéfice de fédération (et donc la scalabilité). On évide donc généralement d’implémenter une révocation de JWT sur les applications hautement scalables, au risque de rendre les JWT pas beaucoup plus intéressants que les tokens obscures.
 > [Documentation JWT](https://jwt.io)
 
 
