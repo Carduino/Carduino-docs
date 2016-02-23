@@ -114,21 +114,19 @@ Contrairement au systèmes d’authentification par Cookies et sessions, ont les
 
 * Cross-domain / CORS: Les cookies et les requettes cross-domain (nécessaires pour une API publique) ne font pas bon ménage.Une approche basée sur les tokens quand à elle permet de faire des requettes AJAX sur n'importe quel serveur car le token est simplement embarqué dna sun header HTTP.
 
-* Stateless (a.k.a. Server side scalability): there is no need to keep a session store, the token is a self-contanined entity that conveys all the user information. The rest of the state lives in cookies or local storage on the client side.
+* Scalable: Il n'y a pas besoin d'un moyen de stokage des sessions puisqu'il n'y a pas de sessions. En effet le token contient déjà les informations utilisateur et rend les sessions inutiles. POur les navigateurs web, le token peut être maintenu en place dans un Cookie, dans le LocalStorage, ou le SessionStorage. Pour les autres clients, il peut être maintenu dans n'importe quelle forme de stockage privé ou en mémoire.
 
-* CDN: you can serve all the assets of your app from a CDN (e.g. javascript, HTML, images, etc.), and your server side is just the API.
+* Decouplage: Nous sommes indépendant du moyen d'authentification utilisé. Le JWT peu être généré n'importe où, et par n'importe quel moyen. Puis l'API peut être atteinte par un unique moyen, les JWT.
 
-* Decoupling: you are not tied to a particular authentication scheme. The token might be generated anywhere, hence your API can be called from anywhere with a single way of authenticating those calls.
+* Mobile-ready: Lorsqu'on travail sur des plateformes natives (iOS, Android, Windows 8, etc.) les cookies ne sont pas idéaux pour accéder à une API sécurisée. Adopter une approche basée sur les cookies simplifie énormement cette problématique.
 
-* Mobile ready: when you start working on a native platform (iOS, Android, Windows 8, etc.) cookies are not ideal when consuming a secure API (you have to deal with cookie containers). Adopting a token-based approach simplifies this a lot.
+* CSRF: Comme nous n'utilisons plus les cookies comme moyen d'authentification, il n'y a plus besoin de se protéger contre les attaques de type CSRF.
 
-* CSRF: since you are not relying on cookies, you don't need to protect against cross site requests (e.g. it would not be possible to your site, generate a POST request and re-use the existing authentication cookie because there will be none).
-
-* Performance: we are not presenting any hard perf benchmarks here, but a network roundtrip (e.g. finding a session on database) is likely to take more time than calculating an HMACSHA256 to validate a token and parsing its contents.
+* Performance: Un aller-retour réseau (càd trouver une session en base de donnée) est plus lent que de calculer le HMACSHA256 pour valider la signature du token et parser son contenu.
 
 * Login page is not an special case: If you are using Protractor to write your functional tests, you don't need to handle any special case for login.
 
-* Standard-based: your API could accepts a standard JSON Web Token(JWT). This is a standard and there are multiple backend libraries (.NET, Ruby, Java, Python, PHP) and companies backing their infrastructure (e.g. Firebase, Google, Microsoft). As an example, Firebase allows their customers to use any authentication mechanism, as long as you generate a JWT with certain pre-defined properties, and signed with the shared secret to call their API.
+* Standard: Les JWT sont un standard. Il y a de multiples librairies disponnibles (.NET, Ruby, Java, Python, PHP, NodeJS, Haskell, Erlang, Go), et de grosses compagnies qui basent leurs infrastructures dessus (Firebase, Google, Microsoft, Facebook, etc).
 
 
 Il est également possible d’effectuer un rafraichissement des JWT, ainsi q’une révocation. Cependant, la révocation implique un accès a une source de données commune entre le serveur d’authentification et l’application, ce qui romp le bénéfice de fédération. On évide donc généralement d’implémenter une révocation de JWT sur les applications hautement scalables. Ceci diminue l’intérêt des JWT vis à vis des tokens obscurs.
