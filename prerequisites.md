@@ -27,16 +27,6 @@ Il fonctionne grâce à un enchaînement de middlewares.
 > [Documentation Express](http://expressjs.com/en/api.html)
 
 
-## Feathers.js
-
-<img class='logo' src='images/feathers-logo.png' alt='Logo Feathers' />
-
-Feathers.js est une couche d'abstraction au dessus d'express, qui permet la mise en place de services avec un accès commun via une API REST ainsi qu'une API temps-réel (dans notre cas via socket.io).
-Notre api n'est donc déclarée qu'une fois dans le code source, et permet par exemple de réaliser des opérations CRUD sur la BDD et de s'authentifier grâce à des mécanismes communs, puis de répondre au client via le bon canal de communication automatiquement (http/https ou Websocket).
-
-> [Documentation Feathers.js](http://docs.feathersjs.com)
-
-
 ## Forever
 
 <img class='logo' src='images/forever-logo.png' alt='Logo Forever' />
@@ -73,15 +63,6 @@ GitHub est un service web d'hébergement et de gestion de développement de logi
 GitHub est centré vers l'aspect social du développement. En plus d'offrir l'hébergement de projets avec Git, le site offre de nombreuses fonctionnalités habituellement retrouvées sur les réseaux sociaux comme les flux, la possibilité de suivre des personnes ou des projets ainsi que des graphes de réseaux pour les dépôts
 
 > [Documentation GitHub](https://help.github.com)
-
-
-## Jade
-
-<img class='logo' src='images/jade-logo.png' alt='Logo Jade' />
-
-L'interface web se base sur du HTML5. Il sera généré côté serveur grâce au pré-processeur/Moteur de template JADE, dont la syntaxe épurée se base sur l'indentation (syntaxe type HAML).
-
-> [Documentation Jade](http://jade-lang.com/reference/)
 
 
 ## Javascript ES6
@@ -203,24 +184,6 @@ Npm, c'est plus de 150 millions de packages téléchargés chaque jour.
 > [Documentation npm](https://docs.npmjs.com)
 
 
-## PassportJS
-
-<img class='logo' src='images/passport-logo.png' alt='Logo PassportJS'/>
-
-PassportJS est un middleware d'authentification pour Node.js. Extrêmement flexible et modulaire, PasseportJS peut être simplement déposé dans toute application basée sur le framework Express. Un ensemble complet de stratégies supporte l'authentification par couple login/password, des tokens, Facebook, Twitter, et plus encore.
-
-> [Documentation PassportJS](http://passportjs.org/docs)
-
-
-## Postman
-
-<img class='logo' src='images/postman-logo.png' alt='Logo SocketIO' />
-
-Postman est un logiciel de test d'API. Il permet d'envoyer n'importe quelle requête HTTP et de créer des scénarios d'utilisation pour automatiser  séries de tests. Son utilisation remplace celle de curl, son équivalent en ligne de commande.
-
-> [Documentation Postman](https://www.getpostman.com/docs/)
-
-
 ## Socket.IO
 
 <img class='logo' src='images/socketio-logo.png' alt='Logo SocketIO' />
@@ -237,15 +200,6 @@ En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle
 Transport Layer Security (TLS), et son prédécesseur Secure Sockets Layer (SSL), sont des protocoles de sécurisation des échanges sur Internet. Ils permettent de passer de `http://` à `https://`, et pour les Websockets de `ws://` à `wss://`. Ces protocoles de sécurité nécessitent l'utilisation d'un certificat SSL (auto-signé ou non) pour fonctionner. Dans le cas d'un certificat auto-signé (càd gratuit), la pluspart des navigateurs refusent la connexion car elle n'est pas "trusted" par une entité de certification reconnue (Comodo, GeoTrust, RapidSSL, VeriSign, etc).
 
 > [Documentation SSL/TLS]()
-
-
-## Stylus
-
-<img class='logo' src='images/stylus-logo.png' alt='Logo Stylus' />
-
-La mise en forme de l'interface web se base sur CSS3. Il sera généré côté serveur grâce au pré-processeur Stylus, dont la syntaxe épurée se base sur l'indentation (syntaxe type SASS/SCSS améliorée).
-
-> [Documentation Stylus](http://stylus-lang.com)
 
 
 ## Système d'exploitation
@@ -285,8 +239,6 @@ Déconnexion : `Ctrl`+`d`
 
 <img class='logo' src='images/websocket-logo.png' alt='Logo Iterm' />
 
-
-
 WebSocket est un standard du Web désignant un protocole réseau de la couche application et une interface de programmation du World Wide Web visant à créer des canaux de communication full-duplex par dessus une connexion TCP.
 
 ![Illustration WebSockets](images/websocket-illustration.png)
@@ -295,11 +247,7 @@ Avec cette API vous pouvez envoyer des messages à un serveur et recevoir ses r�
 
 > [Documentation WebSockets](https://developer.mozilla.org/fr/docs/WebSockets)
 
-
-## Yeoman
-
-<img class='logo' src='images/yeoman-logo.png' alt='Logo Iterm' />
-
-Yeoman est un projet Open Source géré par l’équipe de développement de Chrome qui permet d'échafauder, et de gérer des applications web rapidement. C'est une sorte de générateur d'applications.
-
-> [Documentation Yeoman](http://yeoman.io)
+AJOUTER SVG
+AJOUTER ELECTRON SHELL
+AJOUTER JQUERY
+AJOUTER D3.JS
