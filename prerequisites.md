@@ -248,6 +248,9 @@ Avec cette API vous pouvez envoyer des messages Ã  un serveur et recevoir ses rÃ
 > [Documentation WebSockets](https://developer.mozilla.org/fr/docs/WebSockets)
 
 AJOUTER SVG
+
 AJOUTER ELECTRON SHELL
+
 AJOUTER JQUERY
+
 AJOUTER D3.JS
