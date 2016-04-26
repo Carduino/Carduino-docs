@@ -144,7 +144,7 @@ Pour l'accès distant à la base de donnée et son l'administration, il est reco
 
 Mongoose est ce qu'on appelle un ODM (Object Documment Mapper) pour MongoDB. C'est en quelque sorte l'équivalent d'un ORM mais pour bases de données orientées documents.
 
-Il permet donc, grâce à des schémas, de structurer les données .
+Il permet donc, grâce à des schémas, de structurer les données.
 
 > [Documentation Mongoose](http://mongoosejs.com/docs/api.html)
 
@@ -188,7 +188,7 @@ Npm, c'est plus de 150 millions de packages téléchargés chaque jour.
 
 <img class='logo' src='images/socketio-logo.png' alt='Logo SocketIO' />
 
-En plus de l'API RESTFull, le serveur dispose également d'une API temps réelle réactive (càd évènementielle) via websocket. Socket.IO est la librairie permettant de gérer les websockets, d'établir des rooms, et de gérer les connexions/reconnexions.
+L'API temps réelle réactive (càd évènementielle) fonctionnera via websockets. Socket.IO est la librairie permettant de gérer les websockets, d'établir des rooms, et de gérer les connexions/reconnexions. Les connexions peuvent également se dégrader en requetes XHR/long polling si les websockets sont indisponnible sur certains environements.
 
 > [Documentation Socket.IO](http://socket.io/docs/)
 
