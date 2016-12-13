@@ -1,18 +1,23 @@
 {
-    "title": "Carduino-docs",
-    "description": "Documentation Générale du Projet Carduino",
-    "language": "fr",
+    "plugins": [
+        "collapsible-menu",
+        "heading-anchors",
+        "katex",
+        "theme-latex"
+    ],
     "styles": {
         "website": "styles/website.css"
     },
-    "plugins": [
-        "collapsible-menu",
-        "heading-anchors"
-    ],
     "pluginsConfig": {
-
+        "theme-latex": {
+            "styles": "",
+            "showLevel": true
+        }
     },
     "structure": {
         "readme": "introduction.md"
-    }
+    },
+    "title": "Carduino-docs",
+    "language": "fr",
+    "description": "Documentation Générale du Projet Carduino"
 }
